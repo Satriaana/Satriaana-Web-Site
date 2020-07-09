@@ -32,6 +32,16 @@ const App = (props) => {
             <NavItem>
               <NavLink href="https://forum.fossnsbm.org">Forum</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact Us</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/about">About Us</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/donations">Donations</NavLink>
+            </NavItem>
+
           </Nav>
         </Collapse>
       </Navbar>
