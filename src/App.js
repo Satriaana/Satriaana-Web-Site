@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import React from 'react';
+//import logo from "./logo.svg";
+//import "./App.css";
+import React, { useState } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 
-function App() {
+const App = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar color="faded" light>
+        <NavbarBrand href="/" className="mr-auto">
+          Satriaana
+        </NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="https://fossnsbm.org">Blog</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://forum.fossnsbm.org">Forum</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     </div>
   );
-}
+};
 
 export default App;
