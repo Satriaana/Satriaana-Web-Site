@@ -1,3 +1,11 @@
-.footer {
-  position: bottom;
+.main-footer{
+  background-color:  #df4822;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 2em;
+  color: white;
+  font-size:2.4em;
+  
 }
