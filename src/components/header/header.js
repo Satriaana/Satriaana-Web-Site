@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./header.css";
+//import Logo from '../logoImage/satrianna.jpeg';
 
 //header component
 
@@ -11,7 +12,7 @@ class header extends Component {
           <div class="container">
             <div class="logo">
               <a href="/">
-                <img src="" alt="Satriaana" />
+                <img  src="satrianna.jpeg" alt="Satriaana" />
               </a>
             </div>
             <div id="mainListDiv" class="main_list">
