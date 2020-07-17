@@ -12,7 +12,12 @@ class header extends Component {
           <div class="container">
             <div class="logo">
               <a href="/">
-                <img  src="satrianna.jpeg" alt="Satriaana" />
+                <img
+                  src="satriaana.png"
+                  alt="Satriaana"
+                  width="150"
+                  height="auto"
+                />
               </a>
             </div>
             <div id="mainListDiv" class="main_list">
