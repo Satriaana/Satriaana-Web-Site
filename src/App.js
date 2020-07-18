@@ -8,6 +8,7 @@ import Cover from "./components/cover/cover";
 
 class App extends Component {
   render() {
+    
     return (
       <div className="App">
         <Header />
