@@ -16,6 +16,7 @@
   position: relative;
   height: 3em;
   padding-left: 3em;
+ 
 }
 
 .text
@@ -26,12 +27,10 @@
 }
 
 #footercolum2{
-  text-decoration: none;
-  color: white;
   padding-left: 50em;
-  
-  
-}
+  color: white;
+
+  }
 
 #icon{
   padding-left: 50em;
@@ -39,15 +38,3 @@
   
 }
 
-.ul li a {
-  text-decoration: none;
-  text-decoration: none;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 800;
-
-}
-
-.ul.main-footer a:hover {
-  color: #00e676;
-}
