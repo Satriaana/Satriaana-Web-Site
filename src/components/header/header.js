@@ -22,6 +22,9 @@ class header extends Component {
             </div>
             <div id="mainListDiv" class="main_list">
               <ul class="navlinks">
+              <li>
+                  <a href="/">Home</a>
+                </li>
                 <li>
                   <a href="/">Blog</a>
                 </li>
