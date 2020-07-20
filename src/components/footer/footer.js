@@ -71,7 +71,7 @@ class Footer extends Component {
           <div className="footer-copyright">
 
             <p className="text-xs-ceter">
-              &copy;{new Date().getFullYear()} Satriaana All right Reserved.
+              &copy;{new Date().getFullYear()} Satriaana All rights Reserved.
         </p>
 
           </div>
