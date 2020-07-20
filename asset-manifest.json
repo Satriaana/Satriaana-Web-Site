@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Satriaana-Web-Site/static/css/main.25d8078b.chunk.css",
+    "main.js": "/Satriaana-Web-Site/static/js/main.456ee330.chunk.js",
+    "main.js.map": "/Satriaana-Web-Site/static/js/main.456ee330.chunk.js.map",
+    "runtime-main.js": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js",
+    "runtime-main.js.map": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.50772fe2.chunk.js": "/Satriaana-Web-Site/static/js/2.50772fe2.chunk.js",
+    "static/js/2.50772fe2.chunk.js.map": "/Satriaana-Web-Site/static/js/2.50772fe2.chunk.js.map",
+    "index.html": "/Satriaana-Web-Site/index.html",
+    "precache-manifest.4b232346b2d19d23742bee53c0370954.js": "/Satriaana-Web-Site/precache-manifest.4b232346b2d19d23742bee53c0370954.js",
+    "service-worker.js": "/Satriaana-Web-Site/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.25d8078b.chunk.css.map": "/Satriaana-Web-Site/static/css/main.25d8078b.chunk.css.map",
+    "static/js/2.50772fe2.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.50772fe2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6134674.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.50772fe2.chunk.js",
+    "static/css/main.25d8078b.chunk.css",
+    "static/js/main.456ee330.chunk.js"
+  ]
+}
