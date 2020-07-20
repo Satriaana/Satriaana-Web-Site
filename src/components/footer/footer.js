@@ -10,7 +10,6 @@ class Footer extends Component {
       <div className="main-footer">
 
         <div className="container-fluid text-center text-md-left">
-          <div className="row">
             {/*Colum 1 */}
             <div className="col-md-3 col-sm-6">
 
@@ -77,7 +76,6 @@ class Footer extends Component {
           </div>
         </div>
 
-      </div>
 
     );
   }
