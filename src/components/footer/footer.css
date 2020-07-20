@@ -1,3 +1,50 @@
-.footer {
-  position: bottom;
+.main-footer {
+  background-image: linear-gradient(to right, #df4822, #d90372);
+  padding-top: 0em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0em;
+  color: white;
+  font-size: 2.4em;
+}
+
+.footer-copyright {
+  background-image: linear-gradient(to right, #c22d10, #d00050);
+  width: 100%;
+  position: relative;
+  height: 3em;
+  padding-left: 3em;
+  padding-top: 1em;
+}
+
+.text {
+  padding-bottom: 1em;
+  padding-left: 2em;
+}
+
+#footercolum2 {
+  padding-left: 47em;
+  padding-top: 3em;
+  color: white;
+  text-align: right;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #00f;
+}
+
+#icon {
+  padding-left: 45em;
+  padding-top: 1em;
+}
+
+.link {
+  color: #fff;
+}
+.link:hover {
+  color: #fff;
 }
