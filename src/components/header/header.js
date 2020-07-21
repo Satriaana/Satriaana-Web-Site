@@ -8,14 +8,14 @@ class header extends Component {
   render() {
     return (
       <header>
-        <nav class="nav">
-          <div class="container">
+        <nav class="container-fluid nav">
+          <div className="col-md-12">
             <div class="logo">
               <a href="/">
                 <img
-                  src="satriaana.png"
+                  src="satriaana-logo.png"
                   alt="Satriaana"
-                  width="150"
+                  width="180"
                   height="auto"
                 />
               </a>
