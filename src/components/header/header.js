@@ -9,13 +9,13 @@ class header extends Component {
     return (
       <header>
         <nav class="nav">
-          <div class="container">
+          <div class="container-fluid">
             <div class="logo">
               <a href="/">
                 <img
-                  src="satriaana.png"
+                  src="satriaana-logo.png"
                   alt="Satriaana"
-                  width="150"
+                  width="180"
                   height="auto"
                 />
               </a>
