@@ -8,8 +8,8 @@ class header extends Component {
   render() {
     return (
       <header>
-        <nav class="nav">
-          <div class="container-fluid">
+        <nav class="container-fluid nav">
+          <div className="col-md-12">
             <div class="logo">
               <a href="/">
                 <img
