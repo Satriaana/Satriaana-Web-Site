@@ -10,6 +10,7 @@ class Footer extends Component {
       <div className="main-footer">
         <div className="container-fluid text-center text-md-left">
           <div className="row">
+          <div className="col-md-12">
             {/*Colum 1 */}
             <div className="col-md-3 col-sm-6">
               {/* satriaana logo*/}
@@ -96,6 +97,7 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
 
           {/* footer bittom */}
