@@ -94,6 +94,20 @@ class Footer extends Component {
                       {" "}
                     </i>
                   </a>
+
+                  {/*Medium*/}
+                  <a class="ins-ic" href="/">
+                    <i class="fab fa-medium fa-lg white-text mr-md-5 mr-3 fa-2x">
+                      {" "}
+                    </i>
+                  </a>
+
+                  {/*Reddit*/}
+                  <a class="ins-ic" href="/">
+                    <i class="fab fa-reddit fa-lg white-text mr-md-5 mr-3 fa-2x">
+                      {" "}
+                    </i>
+                  </a>
                 </div>
               </div>
             </div>
