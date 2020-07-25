@@ -5,7 +5,9 @@ class Cover extends Component {
     render() {
         return (
             <div class="covr">
-
+                <div class="h1">
+                We code for open-privacy
+                </div>
             </div>
         );
     }

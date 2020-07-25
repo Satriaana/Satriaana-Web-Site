@@ -1,4 +1,18 @@
 .covr {
-  background: #F2F2F2 0% 0% no-repeat padding-box;
-  height: 200px;
+	background: #f2f2f2 0% 0% no-repeat padding-box;
+	height: 200px;
+	padding-top: 100px;
+}
+.h1 {
+  font: bold;
+  letter-spacing: normal;
+  font-size: large;
+  padding-left: 114px;
+  padding-top: 58px;
+  padding-right: 531px;
+  padding-bottom: 34px;
+  font: Bold 90px;
+	letter-spacing: 0px;
+	color: #222f3a;
+	opacity: 1;
 }
