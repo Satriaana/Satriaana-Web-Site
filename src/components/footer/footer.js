@@ -70,7 +70,7 @@ class Footer extends Component {
 											</i>
 										</a>
 										{/*Linkedin */}
-										<a class="li-ic" href="/">
+										<a class="li-ic" href="https://www.linkedin.com/in/satriaana-open-script-b9543a1b3">
 											<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
 												{" "}
 											</i>
