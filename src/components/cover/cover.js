@@ -4,7 +4,7 @@ import "./cover.css";
 class Cover extends Component {
     render() {
         return (
-            <div className="cover">
+            <div className="covr">
                 <div className="container">
                     <div className="row">
                         <div class="col-md-12">
