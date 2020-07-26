@@ -1,0 +1,17 @@
+.about{
+    margin-bottom: 50px;
+}
+
+.about h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* font family needs to be changed to 'Kumbah Sans' */
+}
+
+.about h3{
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    /* font family needs to be changed to 'Kumbah Sans' */
+}
