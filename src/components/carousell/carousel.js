@@ -5,9 +5,9 @@ class carousel extends Component {
     render() {
         return (
             <div className="carousel">
-                
+
             </div>
-        )
+        );
     }
 }
 
