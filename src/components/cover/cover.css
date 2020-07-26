@@ -1,4 +1,10 @@
 .covr {
-  background: #F2F2F2 0% 0% no-repeat padding-box;
-  height: 200px;
+	background: #f2f2f2;
+	height: 200px;
+	padding: 125px 0px 70px 75px;
+}
+
+.covr h1 {
+	font-size: 45px;
+	font-weight: bold;
 }
