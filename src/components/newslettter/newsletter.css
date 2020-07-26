@@ -11,6 +11,7 @@
   }
   
   .newsletter-subscribe h2 {
+    /* font family needs to be changed to 'Kumbah Sans' */
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 25px;
