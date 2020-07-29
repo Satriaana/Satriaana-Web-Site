@@ -61,7 +61,7 @@ class Footer extends Component {
 									</li>
 								</ul>
 
-								<div class="col-md-12 py-5">
+								<div class="col-md-7 py-5">
 									<div id="icon" class="mb-5 flex-center">
 										{/*github*/}
 										<a class="ins-ic" href="https://github.com/Satriaana">
@@ -70,7 +70,7 @@ class Footer extends Component {
 											</i>
 										</a>
 										{/*Linkedin */}
-										<a class="li-ic" href="/">
+										<a class="li-ic" href="https://www.linkedin.com/in/satriaana-open-script-b9543a1b3">
 											<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
 												{" "}
 											</i>
@@ -117,7 +117,7 @@ class Footer extends Component {
 					{/* footer bittom */}
 					<div className="footer-copyright">
 						<p className="text-xs-ceter">
-							&copy;{new Date().getFullYear()} Satriaana All right Reserved.
+							&copy;{new Date().getFullYear()} Satriaana. All Rights Reserved.
 						</p>
 					</div>
 				</div>
