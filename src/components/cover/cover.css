@@ -1,11 +1,5 @@
 .covr {
-  background: #F2F2F2 0% 0% no-repeat padding-box;
-  height: 250px;
-  padding-top: 135px;
+  background: #F2F2F2;
+  padding-top: 100px;
 }
 
-.covr h1{
-  font-size: 60px;
-  font-weight: bold;
-  /* font family needs to be changed to 'Kumbah Sans' */
-}
