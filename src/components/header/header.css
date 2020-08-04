@@ -21,6 +21,8 @@ header {
   z-index: 9999;
   line-height: 65px;
   text-align: center;
+  background-color: #fff;
+  height: 100px;
 }
 
 .nav div.logo {
@@ -28,6 +30,7 @@ header {
   width: auto;
   height: auto;
   padding-left: 3rem;
+  margin-top: -20px;
 }
 
 .nav div.logo a {
@@ -65,7 +68,7 @@ header {
 
 .nav div.main_list ul li a {
   text-decoration: none;
-  color: white;
+  color: #000;
   line-height: 65px;
   font-size: 2.4rem;
   font-weight: 600;
