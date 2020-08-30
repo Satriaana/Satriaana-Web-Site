@@ -8,8 +8,8 @@ class Blog extends Component {
         <div className="container" style={{paddingTop: '30px'}}>
             <div className="row">
                 <div className="col-md-12" style={{marginBottom: '15px'}}>
-                    <h1 style={{color: 'rgb(255,255,255)', fontSize: '40px', fontFamily: 'Poppins, sans-serif'}}>Forum<button class="btn btn-primary float-right" type="button" style={{backgroundColor: 'rgb(248,248,248)', color: '#222f3a', fontFamily: 'Poppins, sans-serif', marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>
-                    <p style={{fontFamily: 'Poppins, sans-serif', color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
+                    <h1 style={{color: 'rgb(255,255,255)', fontSize: '40px', fontFamily: 'Poppins, sans-serif'}}>Forum<button class="btn btn-primary float-right" type="button" style={{backgroundColor: 'rgb(248,248,248)', fontFamily: 'Poppins, sans-serif', marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>
+                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif', color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
                 </div>
             </div>
             <div className="row" style={{paddingBottom: '30px'}}>

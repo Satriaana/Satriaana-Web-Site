@@ -8,7 +8,7 @@ class header extends Component {
   render() {
     return (
       <header>
-        <nav class="container-fluid nav">
+        <nav class="container-fluid nav" style={{fontFamily: 'Poppins, sans-serif'}}>
           <div className="col-md-12">
             <div class="logo">
               <a href="/">
