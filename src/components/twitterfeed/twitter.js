@@ -7,12 +7,12 @@ class Twitter extends Component {
         <div class="container">
             <div class="row" style={{paddingTop: '50px', paddingBottom: '50px'}}>
                 <div class="col-md-12">
-                    <h1 style={{fontSize: '40px', marginBottom: '30px'}}>See What's Happening...</h1>
+                    <h1 style={{fontSize: '40px', marginBottom: 'px'}}>See What's Happening...</h1>
                 </div>
             </div>
             <div class="row" style={{paddingBottom: '50px'}}>
                 <div class="col-md-3">
-                    <div class="card" style={{borderRadius: '10px'}}>
+                    <div class="card" style={{borderRadius: '10px', marginBottom: '10px'}}>
                         <div class="card-header">
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #1</h5>
                         </div>
@@ -22,7 +22,7 @@ class Twitter extends Component {
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" style={{borderRadius: '10px'}}>
+                    <div class="card" style={{borderRadius: '10px', marginBottom: '10px'}}>
                         <div class="card-header">
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #2</h5>
                         </div>
@@ -32,7 +32,7 @@ class Twitter extends Component {
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" style={{borderRadius: '10px'}}>
+                    <div class="card" style={{borderRadius: '10px', marginBottom: '10px'}}>
                         <div class="card-header">
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #3</h5>
                         </div>
@@ -42,7 +42,7 @@ class Twitter extends Component {
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" style={{borderRadius: '10px'}}>
+                    <div class="card" style={{borderRadius: '10px', marginBottom: '10px'}}>
                         <div class="card-header">
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #4</h5>
                         </div>
