@@ -4,7 +4,7 @@ import "./titleintroduction.css";
 class Titleintroduction extends Component {
     render(){
         return(
-            <div className="container">
+            <div className="container" style={{fontFamily: 'Poppins, sans-serif', marginBottom: '60px'}}>
                 <div className="row">
                     <div className="col-md-12">
                         <div className="about">
