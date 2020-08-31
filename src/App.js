@@ -3,6 +3,7 @@ import React, { Component } from "react";
 //components
 import Header from "./components/header/header";
 import Blog from "./components/BlogCard/blog";
+import Forum from "./components/ForumCard/forum";
 import Footer from "./components/footer/footer";
 import Cover from "./components/cover/cover";
 import Carousel from "./components/carousell/carousel";
@@ -22,6 +23,7 @@ class App extends Component {
         
         
         <Blog />
+        <Forum />
         <Twitter />
         <Newsletter />
         <Footer />
