@@ -7,7 +7,7 @@ import "./footer.css";
 class Footer extends Component {
 	render() {
 		return (
-			<div className="main-footer">
+			<div className="main-footer" style={{fontFamily: 'Poppins, sans-serif'}}>
 				<div className="container-fluid text-center text-md-left">
 					<div className="row">
 						<div className="col-md-12">
