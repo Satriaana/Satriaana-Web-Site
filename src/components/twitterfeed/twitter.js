@@ -17,7 +17,7 @@ class Twitter extends Component {
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #1</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana&amp;show_screen_name=true&amp;show_count=true"
+                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana2&amp;show_screen_name=true&amp;show_count=true"
                                 allowtransparency="true" frameborder="0" scrolling="no" title="Follow Satriaana on Twitter" width="250" height="30"></iframe></div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ class Twitter extends Component {
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #2</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana&amp;show_screen_name=true&amp;show_count=true"
+                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana2&amp;show_screen_name=true&amp;show_count=true"
                                 allowtransparency="true" frameborder="0" scrolling="no" title="Follow Satriaana on Twitter" width="250" height="30"></iframe></div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ class Twitter extends Component {
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #3</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana&amp;show_screen_name=true&amp;show_count=true"
+                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana2&amp;show_screen_name=true&amp;show_count=true"
                                 allowtransparency="true" frameborder="0" scrolling="no" title="Follow Satriaana on Twitter" width="250" height="30"></iframe></div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ class Twitter extends Component {
                             <h5 class="mb-0" style={{fontSize: '18px', marginTop: '10px'}}>Tweet #4</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana&amp;show_screen_name=true&amp;show_count=true"
+                            <p class="card-text" style={{fontSize: '16px'}}>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><iframe src="https://platform.twitter.com/widgets/follow_button.html?screen_name=Satriaana2&amp;show_screen_name=true&amp;show_count=true"
                                 allowtransparency="true" frameborder="0" scrolling="no" title="Follow Satriaana on Twitter" width="250" height="30"></iframe></div>
                     </div>
                 </div>
