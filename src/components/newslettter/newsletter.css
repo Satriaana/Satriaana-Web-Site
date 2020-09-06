@@ -1,0 +1,14 @@
+.container {
+      padding-top: 80px; 
+      padding-bottom: 80px;
+}
+
+h1 {
+      font-size: 40px; 
+      margin-bottom: 16px;
+}
+p {
+      font-size: 16px;
+      font-family: Poppins, sans-serif;
+      color: rgb(231,231,231);
+}
