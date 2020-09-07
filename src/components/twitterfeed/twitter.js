@@ -5,7 +5,7 @@ class Twitter extends Component {
         return(
             <div style={{backgroundColor: '#e9e9e9', fontFamily: 'Poppins, sans-serif'}}>
         <div class="container">
-            <div class="row" style={{paddingTop: '50px', paddingBottom: '50px'}}>
+            <div class="row" style={{paddingBottom: '50px'}}>
                 <div class="col-md-12">
                     <h1 style={{fontSize: '40px', marginBottom: 'px'}}>See What's Happening...</h1>
                 </div>

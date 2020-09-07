@@ -5,7 +5,7 @@ class Blog extends Component {
   render() {
     return (
       <div style={{background: 'linear-gradient(90deg, #df4722, #d90b74)'}}>
-        <div className="container" style={{paddingTop: '30px'}}>
+        <div className="container" style={{paddingTop: '50px'}}>
             <div className="row">
                 <div className="col-md-12" style={{marginBottom: '15px'}}>
                     <h1 style={{color: 'rgb(255,255,255)', fontSize: '40px', fontFamily: 'Poppins, sans-serif'}}>Blog<button class="btn btn-primary float-right" type="button" style={{backgroundColor: 'rgb(248,248,248)', fontFamily: 'Poppins, sans-serif', marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>

@@ -4,11 +4,11 @@ import "./titleintroduction.css";
 class Titleintroduction extends Component {
     render(){
         return(
-            <div class="container" style={{marginTop: '50px', marginBottom: '50px'}}>
+            <div class="container" style={{marginTop: '10px', marginBottom: '10px'}}>
             <div class="row">
                 <div class="col-md-12" style={{marginBottom: '16px'}}>
                     <h1 style={{fontSize: '40px', fontFamily: 'Poppins, sans-serif'}}>We are,</h1>
-                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
+                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
                 </div>
             </div>
             <div class="row">
@@ -23,7 +23,7 @@ class Titleintroduction extends Component {
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif', marginTop: '16px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p><strong style={{fontSize: '14px', fontFamily: 'Poppins, sans-serif'}}><a href="#">Discover More &gt;</a></strong></div>
+                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif', marginTop: '16px', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p><strong style={{fontSize: '14px', fontFamily: 'Poppins, sans-serif'}}><a href="#">Discover More &gt;</a></strong></div>
             </div>
         </div>
         );
