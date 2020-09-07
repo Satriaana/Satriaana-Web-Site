@@ -48,7 +48,7 @@ class Footer extends Component {
 			<hr style={{marginBottom: '25px'}}/>
 			<div class="row">
 				<div class="col-md-6">
-					<p style={{color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>.All Rights Reserved.</p>
+					<p style={{color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
 				</div>
 				<div class="col-md-6">
 				<div class="footer-bottom">
