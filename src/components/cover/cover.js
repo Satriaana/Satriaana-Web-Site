@@ -5,8 +5,12 @@ class Cover extends Component {
     render() {
         return (
             <div class="covr">
-
-            </div>
+                
+                    <div className="container-fluid">
+                        <h1 style={{marginLeft: '15px'}}>Lorem ipsum dolor sit amet consectetur adipiscing</h1>
+                    </div>
+                </div>
+            
         );
     }
 }

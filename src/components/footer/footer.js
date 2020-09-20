@@ -5,111 +5,70 @@ import "./footer.css";
 //import LinearGradient from 'react-native-linear-gradient'
 
 class Footer extends Component {
-  render() {
-    return (
-      <div className="main-footer">
-        <div className="container-fluid text-center text-md-left">
-          <div className="row">
-          <div className="col-md-12">
-            {/*Colum 1 */}
-            <div className="col-md-3 col-sm-6">
-              {/* satriaana logo*/}
-              <div className="logo">
-                <img
-                  src="satriaana.png"
-                  alt="logo"
-                  width="450"
-                  height="Auto"
-                ></img>
-                <div className="text">
-                  <h1>We Aim</h1>
-                  <h1>to Protect</h1>
-                  <h1>Your Privacy</h1>
-                </div>
-              </div>
-            </div>
-
-            <hr class="clearfix w-100 d-md-none pb-3"></hr>
-
-            {/*Colum 2 */}
-            <div className="col-md-3 col-sm-6">
-              <ul id="footercolum2" className="list-unstyled">
-                <li>
-                  <a href="/" className="link">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="link">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="link">
-                    Forum
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="link">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="link">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-
-              <div class="col-md-12 py-5">
-                <div id="icon" class="mb-5 flex-center">
-                  {/*github*/}
-                  <a class="ins-ic" href="/">
-                    <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
-                    </i>
-                  </a>
-                  {/*Linkedin */}
-                  <a class="li-ic" href="/">
-                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
-                    </i>
-                  </a>
-                  {/* Facebook */}
-                  <a class="fb-ic" href="/">
-                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
-                    </i>
-                  </a>
-                  {/* Twitter */}
-                  <a class="tw-ic" href="/">
-                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
-                    </i>
-                  </a>
-
-                  {/*Instagram*/}
-                  <a class="ins-ic" href="/">
-                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
-                    </i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-
-          {/* footer bittom */}
-          <div className="footer-copyright">
-            <p className="text-xs-ceter">
-              &copy;{new Date().getFullYear()} Satriaana All right Reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-  }
+	render() {
+		return (
+			//uses MDBootstrap in some parts
+			<footer style={{background: 'linear-gradient(90deg, #df4722, #d90b74)', fontFamily: 'Poppins, sans-serif'}}>
+        	<div class="footer-top">
+		        <div class="container">
+		        	<div class="row">
+		        		<div class="col-md-2 footer-about">
+		        			<img src="./sat-white.png" style={{height: '178px', width: '120px', marginBottom: '15px'}}/>	
+	                    </div>
+						<div class="col-md-4 footer-about">
+						<p style={{color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+		        		<div class="col-md-4 footer-contact">
+		        			<h3 style={{color: 'rgb(255,255,255)'}}>Contact</h3>
+		                	<p><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit amet</p>
+		                	<p><i class="fas fa-phone"></i> Phone: 011 123 45 67</p>
+		                	<p><i class="fas fa-envelope"></i> Email: <a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a></p>
+		                	<p><i class="fab fa-firefox"></i> Mozilla Community: Satriaana</p>
+	                    </div>
+	                    <div class="col-md-2 footer-links">
+	                    	<div class="row">
+	                    		<div class="col">
+	                    			<h3 style={{color: 'rgb(255,255,255)'}}>Site Map</h3>
+	                    		</div>
+	                    	</div>
+	                    	<div class="row">
+	                    		<div class="col-md-12">
+	                    			<p><a href="#">Home</a></p>
+	                    			<p><a href="#">Blog</a></p>
+	                    			<p><a href="#">Forum</a></p>
+									<p><a href="#">About</a></p>
+	                    			<p><a href="#">Contact</a></p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+		            </div>
+		        </div>
+	        </div>
+			<div class="container">
+			<hr style={{marginBottom: '25px'}}/>
+			<div class="row">
+				<div class="col-md-6">
+					<p style={{color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
+				</div>
+				<div class="col-md-6">
+				<div class="footer-bottom">
+	           		<div class="col footer-social">
+	                    <a href="https://www.facebook.com/Satriaana-108832284248709"><i class="fab fa-facebook-f"></i></a> 
+						<a href="https://twitter.com/Satriaana2"><i class="fab fa-twitter"></i></a> 
+						<a href="https://www.linkedin.com/in/satriaana-open-script-b9543a1b3"><i class="fab fa-linkedin"></i></a>
+						<a href="https://www.instagram.com/satriaanascript/?hl=en"><i class="fab fa-instagram"></i></a> 
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="https://medium.com/@openscriptprivacy"><i class="fab fa-medium"></i></a>
+						<a href="https://www.reddit.com/user/Satiaana"><i class="fab fa-reddit"></i></a>
+						<a href="https://github.com/Satriaana"><i class="fab fa-github"></i></a>
+	                </div>
+					</div>
+	        	</div>
+	        </div>
+		</div>
+        </footer>
+		);
+	}
 }
 
 export default Footer;
