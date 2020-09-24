@@ -1,1 +1,1 @@
-## Home page UI https://trello.com/c/zj7DxrRH
+## We are satriaana we aim to your privacy
