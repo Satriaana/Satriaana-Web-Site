@@ -56,8 +56,7 @@ class Footer extends Component {
 	                    <a href="https://www.facebook.com/Satriaana-108832284248709"><i class="fab fa-facebook-f"></i></a> 
 						<a href="https://twitter.com/Satriaana2"><i class="fab fa-twitter"></i></a> 
 						<a href="https://www.linkedin.com/in/satriaana-open-script-b9543a1b3"><i class="fab fa-linkedin"></i></a>
-						<a href="https://www.instagram.com/satriaanascript/?hl=en"><i class="fab fa-instagram"></i></a> 
-						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.instagram.com/satriaanascript/?hl=en"><i class="fab fa-instagram"></i></a>
 						<a href="https://medium.com/@openscriptprivacy"><i class="fab fa-medium"></i></a>
 						<a href="https://www.reddit.com/user/Satiaana"><i class="fab fa-reddit"></i></a>
 						<a href="https://github.com/Satriaana"><i class="fab fa-github"></i></a>
