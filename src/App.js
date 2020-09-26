@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        
+        <Cover />
         <Carousel/>
         <Titleintroduction />
         

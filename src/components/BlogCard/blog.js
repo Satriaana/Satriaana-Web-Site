@@ -16,7 +16,7 @@ class Blog extends Component {
                 <div className="col-md-6" style={{marginBottom: '15px'}}>
                     <div className="card" style={{borderRadius: '10px'}}><img class="card-img-top w-100 d-block" style={{background: 'url(./john-schnobrich-FlPc9_VocJ4-unsplash.png) center / cover no-repeat', height: '380px', borderRadius: '10px'}}/>
                         <div className="card-body">
-                            <h4 className="card-title" style={{fontFamily: 'Poppins, sans-serif'}}>Recent Article 1</h4>
+                            <h5 className="card-title" style={{fontFamily: 'Poppins, sans-serif'}}>Recent Article 1</h5>
                             <p className="card-text" style={{fontFamily: 'Poppins, sans-serif'}}>Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;</p><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Discover More</button></div>
                     </div>
                 </div>
@@ -24,22 +24,22 @@ class Blog extends Component {
                     <div className="row" style={{marginBottom: '10px'}}>
                         <div className="col">
                             <div className="card" style={{borderRadius: '10px'}}><img class="card-img-top w-100 d-block" style={{background: 'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat', height: '150px', borderRadius: '10px'}}/>
-                                <div className="card-body" style={{height: '80px'}}>
-                                    <h4 className="card-title" style={{fontFamily: 'Poppins, sans-serif', paddingBottom: 'px', marginBottom: '5px'}}>Recent Article 2</h4><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
+                                <div className="card-body" style={{height: '100px'}}>
+                                    <h5 className="card-title" style={{fontFamily: 'Poppins, sans-serif', paddingBottom: 'px', marginBottom: '5px'}}>Recent Article 2</h5><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card" style={{borderRadius: '10px'}}><img class="card-img-top w-100 d-block" style={{background: 'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat', height: '150px', borderRadius: '10px'}}/>
-                                <div className="card-body" style={{height: '80px'}}>
-                                    <h4 className="card-title" style={{fontFamily: 'Poppins, sans-serif', paddingBottom: 'px', marginBottom: '5px'}}>Recent Article 3</h4><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
+                                <div className="card-body" style={{height: '100px'}}>
+                                    <h5 className="card-title" style={{fontFamily: 'Poppins, sans-serif', paddingBottom: 'px', marginBottom: '5px'}}>Recent Article 3</h5><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col" style={{marginTop: '10px'}}>
-                            <div className="card" style={{borderRadius: '10px'}}><img class="card-img-top w-100 d-block" style={{background: 'url(./arif-riyanto-vJP-wZ6hGBg-unsplash.png) center / cover no-repeat', height: '150px', borderRadius: '10px'}}/>
+                            <div className="card" style={{borderRadius: '10px'}}><img class="card-img-top w-100 d-block" style={{background: 'url(./arif-riyanto-vJP-wZ6hGBg-unsplash.png) center / cover no-repeat', height: '145px', borderRadius: '10px'}}/>
                                 <div className="card-body">
-                                    <h4 className="card-title" style={{fontFamily: 'Poppins, sans-serif'}}>Recent Article 4</h4><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
+                                    <h5 className="card-title" style={{fontFamily: 'Poppins, sans-serif'}}>Recent Article 4</h5><button class="btn btn-primary" type="button" style={{fontFamily: 'Poppins, sans-serif'}}>Button</button></div>
                             </div>
                         </div>
                     </div>

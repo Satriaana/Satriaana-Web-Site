@@ -7,7 +7,7 @@ class Cover extends Component {
             <div class="covr">
                 
                     <div className="container-fluid">
-                        <h1 style={{marginLeft: '15px'}}>Lorem ipsum dolor sit amet consectetur adipiscing</h1>
+                        <h1 style={{fontFamily: 'Poppins, sans-serif', marginLeft: '15px', paddingTop: '25px'}}>Lorem ipsum dolor sit</h1>
                     </div>
                 </div>
             
