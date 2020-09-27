@@ -1,20 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+/*@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
 html,
 header {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
-  font-size: 62.5%;
   font-size: 10px;
-  background-color: cyan;
 }
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
 
-.nav {
+/*.nav {
   width: 100%;
   height: 65px;
   position: fixed;
@@ -80,6 +77,8 @@ header {
 
 /* Home section */
 
+/*
+
 .home {
   width: 100%;
   height: 100vh;
@@ -100,6 +99,8 @@ header {
 }
 
 /* Media qurey section */
+
+/*
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
@@ -132,6 +133,7 @@ header {
     bottom: 0;
     background-color: #111;
     /*same background color of navbar*/
+    /*
     background-position: center top;
   }
   .nav div.main_list ul li {
@@ -151,7 +153,7 @@ header {
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
-
+/*
 .navTrigger {
   cursor: pointer;
   width: 30px;
@@ -361,3 +363,4 @@ header {
     padding: 2%;
   }
 }
+*/
