@@ -3,12 +3,12 @@ import React, { Component } from "react";
 class Forum extends Component {
   render() {
     return (
-        <div style={{fontFamily: 'Poppins, sans-serif'}}>
+        <div style={{fontFamily: 'Kumbh Sans'}}>
         <div class="container" style={{paddingTop: '50px'}}>
             <div class="row">
                 <div class="col-md-12" style={{marginBottom: '10px'}}>
-                    <h1 style={{fontSize: '40px', fontFamily: 'Poppins, sans-serif'}}>Forum<button class="btn btn-primary float-right" type="button" style={{marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>
-                    <p style={{fontSize: '16px', fontFamily: 'Poppins, sans-serif', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
+                    <h1 style={{fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Forum<button class="btn btn-primary float-right" type="button" style={{marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>
+                    <p style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
                 </div>
             </div>
             <div class="row" style={{paddingBottom: '50px'}}>
