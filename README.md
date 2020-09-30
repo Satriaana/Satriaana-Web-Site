@@ -1,1 +1,1 @@
-## We are satriaana we aim to your privacy
+## We are satriaana we aim to protect your privacy
