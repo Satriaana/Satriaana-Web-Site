@@ -7,7 +7,7 @@ class Forum extends Component {
         <div class="container" style={{paddingTop: '50px'}}>
             <div class="row">
                 <div class="col-md-12" style={{marginBottom: '10px'}}>
-                    <h1 style={{fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Forum<button class="btn btn-primary float-right" type="button" style={{marginLeft: '410px', marginTop: '15px'}}>Lorem Ipsum</button></h1>
+                    <h1 style={{fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Forum<button class="btn btn-primary float-right" type="button">Lorem Ipsum</button></h1>
                     <p style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
                 </div>
             </div>
