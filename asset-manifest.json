@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Satriaana-Web-Site/static/css/main.c6276cf3.chunk.css",
-    "main.js": "/Satriaana-Web-Site/static/js/main.e4dee9ce.chunk.js",
-    "main.js.map": "/Satriaana-Web-Site/static/js/main.e4dee9ce.chunk.js.map",
+    "main.css": "/Satriaana-Web-Site/static/css/main.58e0c513.chunk.css",
+    "main.js": "/Satriaana-Web-Site/static/js/main.292e1695.chunk.js",
+    "main.js.map": "/Satriaana-Web-Site/static/js/main.292e1695.chunk.js.map",
     "runtime-main.js": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js",
     "runtime-main.js.map": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css",
     "static/js/2.d7ce3e27.chunk.js": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js",
     "static/js/2.d7ce3e27.chunk.js.map": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js.map",
     "index.html": "/Satriaana-Web-Site/index.html",
-    "precache-manifest.fd59ddbb7bb5ef47ea3a1eb273b3e498.js": "/Satriaana-Web-Site/precache-manifest.fd59ddbb7bb5ef47ea3a1eb273b3e498.js",
+    "precache-manifest.4c6897e3be709b7cf0288cbf1599e83c.js": "/Satriaana-Web-Site/precache-manifest.4c6897e3be709b7cf0288cbf1599e83c.js",
     "service-worker.js": "/Satriaana-Web-Site/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c6276cf3.chunk.css.map": "/Satriaana-Web-Site/static/css/main.c6276cf3.chunk.css.map",
+    "static/css/main.58e0c513.chunk.css.map": "/Satriaana-Web-Site/static/css/main.58e0c513.chunk.css.map",
     "static/js/2.d7ce3e27.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a6134674.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.d7ce3e27.chunk.js",
-    "static/css/main.c6276cf3.chunk.css",
-    "static/js/main.e4dee9ce.chunk.js"
+    "static/css/main.58e0c513.chunk.css",
+    "static/js/main.292e1695.chunk.js"
   ]
 }
