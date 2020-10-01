@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
 html,
-body {
+header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   font-size: 62.5%;
   font-size: 10px;
-  background-color: #2CBFA2;
-  
+  background-color: cyan;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -19,8 +18,11 @@ body {
   width: 100%;
   height: 65px;
   position: fixed;
+  z-index: 9999;
   line-height: 65px;
   text-align: center;
+  background-color: #fff;
+  height: 100px;
 }
 
 .nav div.logo {
@@ -28,12 +30,14 @@ body {
   width: auto;
   height: auto;
   padding-left: 3rem;
+  margin-top: -20px;
 }
 
 .nav div.logo a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .nav div.logo a:hover {
@@ -43,6 +47,7 @@ body {
 .nav div.main_list {
   height: 65px;
   float: right;
+  
 }
 
 .nav div.main_list ul {
@@ -63,9 +68,10 @@ body {
 
 .nav div.main_list ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   line-height: 65px;
   font-size: 2.4rem;
+  font-weight: 600;
 }
 
 .nav div.main_list ul li a:hover {
