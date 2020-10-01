@@ -7,7 +7,7 @@ class Twitter extends Component {
         <div class="container">
             <div class="row" style={{paddingBottom: '50px'}}>
                 <div class="col-md-12">
-                    <h1 style={{fontSize: '40px', fontWeight: 'bold', marginBottom: 'px'}}>See What's Happening...</h1>
+                    <h1 style={{fontSize: '40px', fontWeight: 'bold', marginBottom: 'px'}}>See What's Happening</h1>
                 </div>
             </div>
             <div class="row" style={{paddingBottom: '50px'}}>

@@ -10,7 +10,7 @@ class Footer extends Component {
 		        <div class="container">
 		        	<div class="row">
 		        		<div class="col-md-2 footer-about">
-		        			<img src='./sat-white.png' style={{height: '178px', width: '120px', marginBottom: '15px'}}/>	
+		        			<img alt src="./sat-white.png"/>	
 	                    </div>
 						<div class="col-md-4 footer-about" style={{marginBottom: '30px'}}>
 						<p style={{color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
