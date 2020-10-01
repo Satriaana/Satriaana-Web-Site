@@ -1,8 +1,12 @@
 .footer-top { 
-  text-align: left; 
+  text-align: left;
+  border: none; 
 }
-.footer-top h3 { 
-  padding-bottom: 10px; 
+
+.footer-top img {
+  border: 0;
+  width: 120px;
+  margin-bottom: 30px;
 }
 
 .footer-contact i { 
