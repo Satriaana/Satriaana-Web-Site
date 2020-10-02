@@ -17,7 +17,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <Carousel />
       <Titleintroduction />
       <Blog />
       <Forum />
@@ -33,6 +32,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Cover />
+          <Carousel />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" exact component={About} />
