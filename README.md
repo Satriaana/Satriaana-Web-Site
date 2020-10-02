@@ -17,6 +17,14 @@ __Home Page - Mobile View__
 
 ![Home Page - Mobile View](https://i.ibb.co/SRzqK8C/Home-Mobile.png)
 
+__About Page - Webview__
+
+![About Page - Webview](https://i.ibb.co/ZJ0dXBF/About.png)
+
+__About Page - Mobile View__
+
+![About Page - Webview](https://i.ibb.co/6PZWkpw/About-Mobile.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
