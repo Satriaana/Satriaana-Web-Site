@@ -6,7 +6,7 @@ class Cover extends Component {
         return (
             <div class="cover">
                     <div className="container-fluid">
-                        <h1 style={{fontFamily: 'Kumbh Sans', fontWeight: 'bold', marginLeft: '15px', paddingTop: '30px', paddingBottom: '25px'}}>We build the future of open-source</h1>
+                        <h1 style={{fontFamily: 'Kumbh Sans', fontWeight: 'bold', marginLeft: '15px', paddingTop: '30px', paddingBottom: '25px', marginBottom: '0'}}>We build the future of open-source</h1>
                     </div>
                 </div>
             
