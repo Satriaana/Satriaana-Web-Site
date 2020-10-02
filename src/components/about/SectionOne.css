@@ -1,1 +1,9 @@
-/* css for section one in about page goes here */
+@import "../../App.css";
+
+.sec-one > h1 {
+  color: #34404A;
+}
+
+.sec-one > p {
+  color: #34404A;
+}

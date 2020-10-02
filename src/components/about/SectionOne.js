@@ -1,10 +1,11 @@
 import React from "react";
+import classnames from "classnames";
 import "./SectionOne.css";
 
 const SectionOne = () => {
   return (
-    <div>
-      <h1>Satriaana</h1>
+    <div className={classnames("sectionContainer", "sec-one")}>
+      <h2>About Satriaana,</h2>
       <p>
         Lorem ipsum dolor sit amet, et eros labores argumentum duo. Wisi magna
         vel ad, pro ut utinam delicata. Ei ius dolores appareat ocurreret. Id
