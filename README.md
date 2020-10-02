@@ -19,7 +19,7 @@ __Home Page - Mobile View__
 
 __About Page - Webview__
 
-![About Page - Webview](https://i.ibb.co/8BHMsrf/About.png)
+![About Page - Webview](https://i.ibb.co/ZJ0dXBF/About.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
