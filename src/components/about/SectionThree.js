@@ -1,15 +1,49 @@
-import React from "react";
-import "./SectionThree.css";
-import Member from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
+import React from 'react';
+import classnames from 'classnames';
+
+import Member from '../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png';
+
+import './SectionThree.css';
+
+const teamMembers = [
+  {
+    name: 'John Doe',
+    image: Member,
+  },
+  {
+    name: 'John Doe',
+    image: Member,
+  },
+  {
+    name: 'John Doe',
+    image: Member,
+  },
+  {
+    name: 'John Doe',
+    image: Member,
+  },
+  {
+    name: 'John Doe',
+    image: Member,
+  }
+];
 
 const SectionThree = () => {
+  const renderTeam = () => {
+    return teamMembers.map(({ image, name }) => (
+      <div className="team-mem-container">
+        <img src={image} alt={`team member ${name}`} className="team-mem" />
+        <div className="team-mem-name">{name}</div>
+      </div>
+      ));
+  }
+
   return (
-    <div>
-      <img src={Member} alt="Team member" className="team-mem" />
-      <img src={Member} alt="Team member" className="team-mem" />
-      <img src={Member} alt="Team member" className="team-mem" />
-      <img src={Member} alt="Team member" className="team-mem" />
-      <img src={Member} alt="Team member" className="team-mem" />
+    <div className={classnames('sectionContainer', 'sec-three')}>
+      <h2>Our Team</h2>
+      <div className="team">
+        {renderTeam()}
+      </div>
     </div>
   );
 };

@@ -1,7 +1,30 @@
-/* styling for section 3 of about page goes here */
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.team-mem-container {
+  margin-top: 2rem;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .team-mem {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    /* maybe use grid to get the desired styling */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-mem-name {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .team-mem-container {
+    width: 340px;
+  }
 }
