@@ -1,7 +1,9 @@
 import React from "react";
-import "./About.css":
+import "./About.css";
+import SectionOne from "./SectionOne";
+
 const About = () => {
-  return <h1>About</h1>;
+  return <SectionOne />;
 };
 
 export default About;
