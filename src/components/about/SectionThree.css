@@ -1,0 +1,7 @@
+/* styling for section 3 of about page goes here */
+.team-mem {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* maybe use grid to get the desired styling */
+}
