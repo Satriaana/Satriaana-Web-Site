@@ -25,6 +25,13 @@ __About Page - Mobile View__
 
 ![About Page - Webview](https://i.ibb.co/6PZWkpw/About-Mobile.png)
 
+__Contact Page - Webview__
+
+![About Page - Webview](https://i.ibb.co/pbB4Cb2/Contact.png)
+
+__Contact Page - Mobile View__
+
+![About Page - Webview](https://i.ibb.co/ThQ7xtK/Contact-Mobile.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
