@@ -24,7 +24,6 @@ const Home = () => {
       <Blog />
       <Forum />
       <Twitter />
-      <Newsletter />
     </>
   );
 };
@@ -40,6 +39,7 @@ class App extends Component {
             <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
           </Switch>
+          <Newsletter />
           <Footer />
         </div>
       </Router>

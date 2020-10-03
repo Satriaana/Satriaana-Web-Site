@@ -49,7 +49,7 @@ class Footer extends Component {
 
 			<div className="row">
 				<div className="col-md-6 footer-copyright">
-					<p style={{fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
+					<p id="copyright" style={{fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
 
 				</div>
 				<div className="col-md-6 footer-bottom">

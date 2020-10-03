@@ -6,7 +6,7 @@ const accordionStyle = {
   width: "100%", 
   margin: "26px 0", 
   borderRadius: '1rem',
-  backgroundColor: '#e8e8e8',
+  backgroundColor: '#F2F2F2',
   boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.25)"
 }
 
@@ -20,7 +20,7 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title">
+          <h2 className="question-title" style={{fontWeight: 'normal'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
           </h2>
         </AccordionSummary>
@@ -43,7 +43,7 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title">
+          <h2 className="question-title" style={{fontWeight: 'normal'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
           </h2>
         </AccordionSummary>
@@ -66,7 +66,7 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title">
+          <h2 className="question-title" style={{fontWeight: 'normal'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
           </h2>
         </AccordionSummary>
@@ -89,7 +89,7 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title">
+          <h2 className="question-title" style={{fontWeight: 'normal'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
           </h2>
         </AccordionSummary>

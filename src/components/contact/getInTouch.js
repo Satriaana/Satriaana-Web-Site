@@ -15,7 +15,7 @@ export default function GetInTouch() {
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
             reprehenderit in
           </p>
-          <button className="get-in-touch-button">Ask help in Community Forum</button>
+          <button className="btn btn-primary" style={{marginBottom: '30px'}}>Ask help in Community Forum</button>
         </div>
       </div>
       <div className="row">

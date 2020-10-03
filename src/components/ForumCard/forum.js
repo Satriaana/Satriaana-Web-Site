@@ -10,8 +10,8 @@ class Forum extends Component {
         <div className="container" style={{paddingTop: '50px'}}>
             <div className="row">
                 <div className="col-md-12" style={{marginBottom: '10px'}}>
-                    <h1 style={{fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Forum<button className="btn btn-primary float-right" type="button">Lorem Ipsum</button></h1>
-                    <p style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
+                    <h1 id="title"style={{fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Forum<button className="btn btn-primary float-right" type="button">Lorem Ipsum</button></h1>
+                    <p id="desc" style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: '#21262b'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
                 </div>
             </div>
             <div className="row" style={{paddingBottom: '50px'}}>
