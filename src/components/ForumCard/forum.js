@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import forumImage from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png"
+import forumImage from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png";
 
 class Forum extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./carousel.css";
-import Cover from './cover.png';
+import Cover from '../../assets/cover.png';
 
 class carousel extends Component {
     render() {

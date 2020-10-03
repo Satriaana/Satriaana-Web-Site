@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import HeaderLogo from "../../assets/satriaana-logo.png";
+
 class header extends Component {
   render() {
     return (
@@ -14,6 +16,10 @@ class header extends Component {
           }}
         >
           <div class="container-fluid">
+            <img alt src={HeaderLogo} 
+                style={{
+                  width: '150px',
+                  height: '80px'}}/>
             <a
               class="navbar-brand"
               href="#"
@@ -25,7 +31,6 @@ class header extends Component {
                 height: "80px"
               }}
             >
-              Satriaana
             </a>
             <button
               data-toggle="collapse"
@@ -40,7 +45,7 @@ class header extends Component {
               id="navcol-1"
             >
               <ul class="nav navbar-nav">
-                <Link to="/">
+                <Link style={{textDecoration: 'none'}} to="/Satriaana-Web-Site">
                   {" "}
                   <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -63,7 +68,7 @@ class header extends Component {
                     Contact
                   </a>
                 </li>
-                <Link to="/about">
+                <Link style={{textDecoration: 'none'}} to="/about">
                   <li class="nav-item">
                     <a class="nav-link">About</a>
                   </li>
