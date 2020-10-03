@@ -40,7 +40,7 @@ const SectionThree = () => {
 
   return (
     <div className={classnames('sectionContainer', 'sec-three')}>
-      <h2>Our Team</h2>
+      <h2 style={{fontWeight: 'bold'}}>Meet our team at Satriaana</h2>
       <div className="team">
         {renderTeam()}
       </div>

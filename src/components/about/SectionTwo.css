@@ -17,11 +17,10 @@
 @media only screen and (min-width: 600px) {
   .part {
     display: flex;
-    justify-content: space-between;
   }
 
   .part h2 {
-    width: 22rem;
+    width: 10rem;
     min-width: 200px;
   }
 
