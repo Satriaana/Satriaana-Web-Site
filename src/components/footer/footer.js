@@ -11,7 +11,7 @@ class Footer extends Component {
 		        <div class="container">
 		        	<div class="row">
 		        		<div class="col-md-2 footer-about">
-		        			<img alt src={FooterLogo}/>	
+		        			<img alt="" src={FooterLogo}/>	
 	                    </div>
 						<div class="col-md-4 footer-about" style={{marginBottom: '30px'}}>
 						<p style={{color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -46,7 +46,7 @@ class Footer extends Component {
 			<hr style={{marginBottom: '25px'}}/>
 			<div class="row">
 				<div class="col-md-6 footer-copyright">
-					<p style={{fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
+					<p id="copyright" style={{fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>&copy; 2020 <b>Satriaana</b>. All Rights Reserved.</p>
 				</div>
 				<div class="col-md-6 footer-bottom">
 	           		<div class="footer-social" style={{float: 'right'}}>

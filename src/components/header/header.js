@@ -16,20 +16,13 @@ class header extends Component {
           }}
         >
           <div class="container-fluid">
-            <img alt src={HeaderLogo} 
+            <img alt="" src={HeaderLogo} 
                 style={{
-                  width: '150px',
-                  height: '80px'}}/>
+                  width: '130px'
+                  }}/>
             <a
               class="navbar-brand"
               href="#"
-              style={{
-                background:
-                  "url(./satriaana-logo.png) center / cover no-repeat",
-                color: "rgba(0,0,0,0)",
-                width: "150px",
-                height: "80px"
-              }}
             >
             </a>
             <button

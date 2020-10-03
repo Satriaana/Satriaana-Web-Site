@@ -48,12 +48,15 @@
 }
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px){
 	.footer-top { 
     padding: 40px 0 20px 0; 
   }
 	.footer-bottom { 
     padding: 0 0 40px 0;
+  }
+  #copyright{
+    text-align: left;
   }
 }
 
@@ -64,6 +67,9 @@
 	.footer-bottom { 
     padding: 0 0 40px 0;
   }
+  #copyright{
+  text-align: left;
+}
 }
 
 @media (max-width: 767px) {
