@@ -10,21 +10,28 @@ Find the UI wireframes here: [https://xd.adobe.com/view/182439ac-ab97-4949-b704-
 
 __Home Page - Webview__
 
-![Home Page - Webview](https://i.ibb.co/Wnt5wdc/Home-Web.png)
+<img src="https://i.ibb.co/Wnt5wdc/Home-Web.png" width="200">
 
 
 __Home Page - Mobile View__
 
-![Home Page - Mobile View](https://i.ibb.co/SRzqK8C/Home-Mobile.png)
+<img src="https://i.ibb.co/SRzqK8C/Home-Mobile.png" width="100">
 
 __About Page - Webview__
 
-![About Page - Webview](https://i.ibb.co/ZJ0dXBF/About.png)
+<img src="https://i.ibb.co/ZJ0dXBF/About.png" width="200">
 
 __About Page - Mobile View__
 
-![About Page - Webview](https://i.ibb.co/6PZWkpw/About-Mobile.png)
+<img src="https://i.ibb.co/6PZWkpw/About-Mobile.png" width="100">
 
+__Contact Page - Webview__
+
+<img src="https://i.ibb.co/pbB4Cb2/Contact.png" width="200">
+
+__Contact Page - Mobile View__
+
+<img src="https://i.ibb.co/ThQ7xtK/Contact-Mobile.png" width="200">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
