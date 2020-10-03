@@ -6,21 +6,17 @@ const SectionTwo = () => {
   return (
     <div className={classnames("sectionContainer", "sec-two")}>
       <div className="part">
-        <h2>Our Vision</h2>
-        <p>
-          Lorem ipsum dolor sit amet, et eros labores argumentum duo. Wisi magna
-          vel ad, pro ut utinam delicata. Ei ius dolores appareat ocurreret. Id
-          diam minimum his, usu possit dictas alterum id. Ei zril periculis est.
-        </p>
+        <h2 style={{fontWeight: 'bold', marginRight: '100px'}}>Our Vision</h2>
+        <h5>
+        Unbiased transparency and privacy for everyone.
+        </h5>
       </div>
       <hr/>
       <div className="part">
-        <h2>Our Mission</h2>
-        <p>
-          Lorem ipsum dolor sit amet, et eros labores argumentum duo. Wisi magna
-          vel ad, pro ut utinam delicata. Ei ius dolores appareat ocurreret. Id
-          diam minimum his, usu possit dictas alterum id. Ei zril periculis est.
-        </p>
+        <h2 style={{fontWeight: 'bold', marginRight: '100px'}}>Our Mission</h2>
+        <h5>
+        To bequeath to the society, an independent and transparent open source community that questions the authenticity of open source projects and helps open source startups to rise, while being a platform where people can voice the issues they encounter in the technical world.
+        </h5>
       </div>
     </div>
   );
