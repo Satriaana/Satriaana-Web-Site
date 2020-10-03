@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "./header.css";
-import { Link } from "react-router-dom";
-import HeaderLogo from "../../assets/satriaana-logo.png";
+import React, { Component } from 'react';
+import './header.css';
+import { Link } from 'react-router-dom';
+import HeaderLogo from '../../assets/satriaana-logo.png';
 
 class header extends Component {
   render() {
@@ -10,23 +10,20 @@ class header extends Component {
         <nav
           className="navbar navbar-light navbar-expand-md"
           style={{
-            fontFamily: "Kumbh Sans",
-            fontWeight: "bold",
-            fontSize: "18px"
+            fontFamily: 'Kumbh Sans',
+            fontWeight: 'bold',
+            fontSize: '18px',
           }}
         >
-
           <div className="container-fluid">
-            <img alt src={HeaderLogo} 
-
-                style={{
-                  width: '130px'
-                  }}/>
-            <a
-              className="navbar-brand"
-              href="#"
-            >
-            </a>
+            <img
+              alt
+              src={HeaderLogo}
+              style={{
+                width: '130px',
+              }}
+            />
+            <a className="navbar-brand" href="#"></a>
             <button
               data-toggle="collapse"
               className="navbar-toggler"
@@ -40,8 +37,11 @@ class header extends Component {
               id="navcol-1"
             >
               <ul className="nav navbar-nav">
-                <Link style={{textDecoration: 'none'}} to="/Satriaana-Web-Site">
-                  {" "}
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  to="/Satriaana-Web-Site"
+                >
+                  {' '}
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       Home
@@ -63,7 +63,7 @@ class header extends Component {
                     Contact
                   </a>
                 </li>
-                <Link style={{textDecoration: 'none'}} to="/about">
+                <Link style={{ textDecoration: 'none' }} to="/about">
                   <li className="nav-item">
                     <a className="nav-link">About</a>
                   </li>
