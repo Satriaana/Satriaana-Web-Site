@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/Satriaana-Web-Site/static/css/main.c6276cf3.chunk.css",
-    "main.js": "/Satriaana-Web-Site/static/js/main.e4dee9ce.chunk.js",
-    "main.js.map": "/Satriaana-Web-Site/static/js/main.e4dee9ce.chunk.js.map",
+    "main.css": "/Satriaana-Web-Site/static/css/main.7e94244c.chunk.css",
+    "main.js": "/Satriaana-Web-Site/static/js/main.61392861.chunk.js",
+    "main.js.map": "/Satriaana-Web-Site/static/js/main.61392861.chunk.js.map",
     "runtime-main.js": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js",
     "runtime-main.js.map": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d7ce3e27.chunk.js": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js",
-    "static/js/2.d7ce3e27.chunk.js.map": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js.map",
+    "static/js/2.2f1c3a93.chunk.js": "/Satriaana-Web-Site/static/js/2.2f1c3a93.chunk.js",
+    "static/js/2.2f1c3a93.chunk.js.map": "/Satriaana-Web-Site/static/js/2.2f1c3a93.chunk.js.map",
     "index.html": "/Satriaana-Web-Site/index.html",
-    "precache-manifest.fd59ddbb7bb5ef47ea3a1eb273b3e498.js": "/Satriaana-Web-Site/precache-manifest.fd59ddbb7bb5ef47ea3a1eb273b3e498.js",
+    "precache-manifest.c366c2f53dc1152b54521cd29b9637e6.js": "/Satriaana-Web-Site/precache-manifest.c366c2f53dc1152b54521cd29b9637e6.js",
     "service-worker.js": "/Satriaana-Web-Site/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Satriaana-Web-Site/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c6276cf3.chunk.css.map": "/Satriaana-Web-Site/static/css/main.c6276cf3.chunk.css.map",
-    "static/js/2.d7ce3e27.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.d7ce3e27.chunk.js.LICENSE.txt"
+    "static/css/main.7e94244c.chunk.css.map": "/Satriaana-Web-Site/static/css/main.7e94244c.chunk.css.map",
+    "static/js/2.2f1c3a93.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.2f1c3a93.chunk.js.LICENSE.txt",
+    "static/media/cover.png": "/Satriaana-Web-Site/static/media/cover.7b4b5c30.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a6134674.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.d7ce3e27.chunk.js",
-    "static/css/main.c6276cf3.chunk.css",
-    "static/js/main.e4dee9ce.chunk.js"
+    "static/js/2.2f1c3a93.chunk.js",
+    "static/css/main.7e94244c.chunk.css",
+    "static/js/main.61392861.chunk.js"
   ]
 }
