@@ -6,7 +6,7 @@ class Aboutcarousell extends Component {
     render() {
         return (
             <div>
-                <img alt src={AboutCover} style={{width: '100%'}}/>
+                <img alt="" src={AboutCover} style={{width: '100%'}}/>
             </div>
         );
     }

@@ -6,7 +6,7 @@ class carousel extends Component {
     render() {
         return (
             <div>
-                <img alt src={Cover} style={{width: '100%'}}/>
+                <img alt="" src={Cover} style={{width: '100%'}}/>
 
             </div>
         );

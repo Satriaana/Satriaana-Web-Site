@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import "./forum.css";
 import forumImage from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png";
 
 class Forum extends Component {
   render() {
     return (
         <div style={{fontFamily: 'Kumbh Sans'}}>
+
         <div className="container" style={{paddingTop: '50px'}}>
             <div className="row">
                 <div className="col-md-12" style={{marginBottom: '10px'}}>
@@ -16,22 +18,27 @@ class Forum extends Component {
                 <div className="col-md-4">
                     <div className="card" style={{borderRadius: '10px', marginBottom: '30px'}}><img className="card-img w-100 d-block" src={forumImage} style={{objectFit:"cover",height: '320px', borderRadius: '10px'}}/>
                         <div className="card-img-overlay" style={{background: 'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat', borderRadius: '10px'}}>
+
                             <h4 style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}>Recent Thread #1</h4>
                             <p style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}><a href="#">Visit &gt;</a></p>
                         </div>
                     </div>
                 </div>
+
                 <div className="col-md-4">
                     <div className="card" style={{borderRadius: '10px', marginBottom: '30px'}}><img className="card-img w-100 d-block" src={forumImage} style={{objectFit:"cover",height: '320px', borderRadius: '10px'}}/>
                         <div className="card-img-overlay" style={{background: 'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat', borderRadius: '10px'}}>
+
                             <h4 style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}>Recent Thread #2</h4>
                             <p style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}><a href="#">Visit &gt;</a></p>
                         </div>
                     </div>
                 </div>
+
                 <div className="col-md-4">
                     <div className="card" style={{borderRadius: '10px', marginBottom: '30px'}}><img className="card-img w-100 d-block" src={forumImage} style={{objectFit:"cover",height: '320px', background: 'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat', borderRadius: '10px'}}/>
                         <div className="card-img-overlay" style={{borderRadius: '10px'}}>
+
                             <h4 style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}>Recent Thread #3</h4>
                             <p style={{color: 'rgb(255,255,255)', textShadow: '0px 0px 1px'}}><a href="#">Visit &gt;</a></p>
                         </div>
