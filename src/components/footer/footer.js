@@ -65,6 +65,12 @@ class Footer extends Component {
 					</div>
 	        	</div>
 	        </div>
+			<div>
+				<button id="myBtn" onClick="topFunction()" title="Go to up" style={{display:'block'}}>
+					<i className="fa fa-chevron-up">
+					</i>
+				</button>
+			</div>
         </footer>
 		);
 	}
