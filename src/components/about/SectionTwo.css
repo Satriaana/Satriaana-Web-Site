@@ -1,0 +1,31 @@
+@import '../../App.css';
+
+.sec-two {
+  background: rgb(223, 72, 34);
+  background: linear-gradient(90deg, rgba(223, 72, 34, 1) 0%, rgba(217, 3, 116, 1) 100%);
+}
+
+.part {
+  color: white;
+}
+
+.sec-two hr {
+  border-color: white;
+  margin: 3rem auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .part {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .part h2 {
+    width: 22rem;
+    min-width: 200px;
+  }
+
+  p {
+    flex-grow: 1;
+  }
+}

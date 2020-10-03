@@ -10,24 +10,37 @@ import Carousel from "./components/carousell/carousel";
 import Twitter from "./components/twitterfeed/twitter";
 import Newsletter from "./components/newslettter/newsletter";
 import Titleintroduction from "./components/titleintroduction/titleintroduction";
+import About from "./components/about/About";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+//app home
+const Home = () => {
+  return (
+    <>
+      <Cover />
+      <Carousel />
+      <Titleintroduction />
+      <Blog />
+      <Forum />
+      <Twitter />
+      <Newsletter />
+    </>
+  );
+};
 
 class App extends Component {
   render() {
-    
     return (
-      <div className="App">
-        <Header />
-        <Cover />
-        <Carousel/>
-        <Titleintroduction />
-        
-        
-        <Blog />
-        <Forum />
-        <Twitter />
-        <Newsletter />
-        <Footer />
-      </div>
+      <Router>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route exact true path="/Satriaana-Web-Site" component={Home} />
+            <Route path="/about" exact component={About} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
