@@ -37,6 +37,7 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact true path="/Satriaana-Web-Site" component={Home} />
+            <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
           </Switch>
           <Footer />
