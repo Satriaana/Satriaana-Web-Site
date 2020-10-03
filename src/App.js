@@ -11,6 +11,7 @@ import Twitter from "./components/twitterfeed/twitter";
 import Newsletter from "./components/newslettter/newsletter";
 import Titleintroduction from "./components/titleintroduction/titleintroduction";
 import About from "./components/about/About";
+import Contact from "./components/contact/contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //app home
