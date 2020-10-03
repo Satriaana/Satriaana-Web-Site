@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./blog.css";
-import article1ImgSrc from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png"
-import article2ImgSrc from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png"
-import article4ImgSrc from "../../assets/arif-riyanto-vJP-wZ6hGBg-unsplash.png"
+import article1ImgSrc from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
+import article2ImgSrc from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png";
+import article4ImgSrc from "../../assets/arif-riyanto-vJP-wZ6hGBg-unsplash.png";
 
 class Blog extends Component {
   render() {

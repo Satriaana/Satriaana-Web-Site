@@ -17,10 +17,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Home = () => {
   return (
     <>
+      <Cover />
+      <Carousel />
       <Titleintroduction />
       <Blog />
       <Forum />
       <Twitter />
+      <Newsletter />
     </>
   );
 };
@@ -31,13 +34,10 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header />
-          <Cover />
-          <Carousel />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact true path="/Satriaana-Web-Site" component={Home} />
             <Route path="/about" exact component={About} />
           </Switch>
-          <Newsletter />
           <Footer />
         </div>
       </Router>
