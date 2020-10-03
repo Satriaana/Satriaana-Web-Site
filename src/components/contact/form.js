@@ -31,7 +31,7 @@ export default function Form() {
   return (
     <div className="form">
       <div className="col-md-8" style={{ textAlign: "start" }}>
-        <h1>Reach out to us</h1>
+        <h1 style={{marginBottom: '30px'}}>Reach out to us</h1>
       </div>
       <form onSubmit={handleContactSubmit}>
         <input 
@@ -70,8 +70,8 @@ export default function Form() {
           onChange={e => setMessage(e.target.value)}
         />
 
-        <div className="col-md-3 button" style={{ alignSelf: "flex-end" }}>
-          <button>Submit</button>
+        <div className="col-md-3" style={{ alignSelf: "flex-end" }}>
+          <button class="btn btn-primary" style={{width: '100px', height: '40px'}}>Submit</button>
         </div>
       </form>
     </div>

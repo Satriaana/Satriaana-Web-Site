@@ -1,19 +1,17 @@
 import React from "react";
 
-import Carousel from "../carousell/carousel";
+import ContactCover from "./contactcover";
 import GetInTouch from "./getInTouch";
 import Form from "./form";
 import Questions from "./questions";
-import Newsletter from "../newslettter/newsletter";
 
 const Contact = () => {
     return (
         <>
-            <Carousel />
+            <ContactCover />
             <GetInTouch />
             <Form />
             <Questions />
-            <Newsletter />
         </>
     )
 };

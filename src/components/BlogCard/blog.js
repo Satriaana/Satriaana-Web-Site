@@ -12,8 +12,8 @@ class Blog extends Component {
             <div className="row">
                 <div className="col-md-12" style={{marginBottom: '15px'}}>
 
-                    <h1 style={{color: 'rgb(255,255,255)', fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Blog<button className="btn btn-primary float-right" type="button" style={{backgroundColor: 'rgb(248,248,248)', fontFamily: 'Kumbh Sans'}}>Lorem Ipsum</button></h1>
-                    <p style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
+                    <h1 id="title" style={{color: 'rgb(255,255,255)', fontSize: '40px', fontFamily: 'Kumbh Sans', fontWeight: 'bold'}}>Blog<button className="btn btn-primary float-right" type="button" style={{backgroundColor: 'rgb(248,248,248)', fontFamily: 'Kumbh Sans'}}>Lorem Ipsum</button></h1>
+                    <p id="desc" style={{fontSize: '21px', fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/></p>
 
                 </div>
             </div>
