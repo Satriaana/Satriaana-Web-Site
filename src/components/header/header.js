@@ -16,6 +16,7 @@ class header extends Component {
           }}
         >
           <div className="container-fluid">
+            <a className="navbar-brand" href="https://satriaana.github.io/Satriaana-Web-Site/">
             <img
               alt
               src={HeaderLogo}
@@ -23,7 +24,7 @@ class header extends Component {
                 width: '130px',
               }}
             />
-            <a className="navbar-brand" href="#"></a>
+            </a>
             <button
               data-toggle="collapse"
               className="navbar-toggler"
@@ -43,18 +44,18 @@ class header extends Component {
                 >
                   {' '}
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/Satriaana-Web-Site">
                       Home
                     </a>
                   </li>
                 </Link>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="https://blog.satriaana.org">
                     Blog
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="https://forum.satriaana.org">
                     Forum
                   </a>
                 </li>
