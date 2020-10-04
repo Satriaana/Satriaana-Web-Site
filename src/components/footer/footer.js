@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './footer.css';
 import FooterLogo from '../../assets/sat-white.png';
+import FaAngleUp from './gotopbutton.js';
 
 class Footer extends Component {
+
   render() {
     return (
       //uses MDBootstrap in some parts
@@ -121,14 +123,7 @@ class Footer extends Component {
           </div>
         </div>
         <div>
-          <button
-            id="myBtn"
-            onClick="topFunction()"
-            title="Go to up"
-            style={{ display: 'block' }}
-          >
-            <i className="fa fa-chevron-up"></i>
-          </button>
+        <FaAngleUp/>
         </div>
       </footer>
     );

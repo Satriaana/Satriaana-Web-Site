@@ -27,7 +27,7 @@ class Newsletter extends Component {
               </p>
               <input
                 type="text"
-                placeholder="&nbsp;&nbsp;&nbsp;Enter your e-mail address"
+                placeholder="&nbsp;&nbsp;&nbsp;Email address"
                 style={{
                   fontSize: '18px',
                   marginRight: '10px',
@@ -39,7 +39,7 @@ class Newsletter extends Component {
               <button
                 className="btn btn-primary"
                 type="button"
-                style={{ marginBottom: '9px', height: '38px', width: '120px' }}
+                style={{ marginTop: '7px', marginBottom: '9px', height: '38px', width: '120px' }}
               >
                 Subscribe
               </button>
