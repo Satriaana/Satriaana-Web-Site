@@ -7,7 +7,7 @@ import {
 class Twitter extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "#e9e9e9", fontFamily: "Kumbh Sans" }}>
+      <div style={{ backgroundColor: "#f2f2f2", fontFamily: "Kumbh Sans" }}>
         <div className="container">
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-md-12">
@@ -21,14 +21,14 @@ class Twitter extends Component {
               </h1>
             </div>
           </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-              <TwitterFollowButton screenName={"Satriaana2"} />
+          <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px"}}>
+              <TwitterFollowButton screenName={"Satriaana2"}/>
           </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ display: "flex", justifyContent: "space-evenly"}}>
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName="Satriaana2"
-              options={{ height: 500, width: 600 }}
+              options={{ width: 500 }}
               noBorders={true}
               noFooter={true}
               noHeader={true}
