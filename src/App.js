@@ -14,6 +14,7 @@ import About from "./components/about/About";
 import Contact from "./components/contact/contact";
 import useTheme from "./components/Services/useTheme";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 // New Package 
 import storage from 'local-storage-fallback';
