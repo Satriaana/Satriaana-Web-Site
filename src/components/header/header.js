@@ -41,7 +41,7 @@ const  header =  ()=>{
               {/* {this.props.toggleMode ? "Working " : "Not Working"} */}
               <Link style={{ textDecoration: "none" }} to="/Satriaana-Web-Site">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="https://blog.satriaana.org">
                     Home
                   </a>
                 </li>
