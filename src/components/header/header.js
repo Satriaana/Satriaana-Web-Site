@@ -1,11 +1,11 @@
-import React from "react";
-import "./toggleTheme.css";
-import "./header.css";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import HeaderLogo from "../../assets/satriaana-logo.png";
+import ToggleMode from "../Services/toggleMode";
+import "./header.css";
+import "./toggleTheme.css";
 
-import ToggleMode from '../Services/toggleMode'
-const  header =  ()=>{
+const header = () => {
   return (
     <header>
       <nav
@@ -17,14 +17,18 @@ const  header =  ()=>{
         }}
       >
         <div className="container-fluid">
-          <img
-            alt
-            src={HeaderLogo}
-            style={{
-              width: "130px",
-            }}
-          />
-          <a className="navbar-brand" href="#"></a>
+          <a
+            className="navbar-brand"
+            href="https://satriaana.github.io/Satriaana-Web-Site/"
+          >
+            <img
+              alt
+              src={HeaderLogo}
+              style={{
+                width: "130px",
+              }}
+            />
+          </a>
           <button
             data-toggle="collapse"
             className="navbar-toggler"
@@ -38,21 +42,21 @@ const  header =  ()=>{
             id="navcol-1"
           >
             <ul className="nav navbar-nav">
-              {/* {this.props.toggleMode ? "Working " : "Not Working"} */}
               <Link style={{ textDecoration: "none" }} to="/Satriaana-Web-Site">
+                {" "}
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/Satriaana-Web-Site">
                     Home
                   </a>
                 </li>
               </Link>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://blog.satriaana.org">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://forum.satriaana.org">
                   Forum
                 </a>
               </li>
@@ -66,17 +70,6 @@ const  header =  ()=>{
                   <a className="nav-link">About</a>
                 </li>
               </Link>
-              {/* <button
-                type="button"
-                onClick={toggle}
-                style={{
-                  backgroundColor: theme.backgroundColor,
-                  color: theme.color,
-                  outline: "none",
-                }}
-              >
-                Toggle to {!dark ? "Dark" : "Light"} theme
-              </button> */}
               <ToggleMode/>
             </ul>
           </div>
