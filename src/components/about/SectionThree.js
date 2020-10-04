@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: 'John Doe',
     image: Member,
-  }
+  },
 ];
 
 const SectionThree = () => {
@@ -35,15 +35,13 @@ const SectionThree = () => {
         <img src={image} alt={`team member ${name}`} className="team-mem" />
         <div className="team-mem-name">{name}</div>
       </div>
-      ));
-  }
+    ));
+  };
 
   return (
     <div className={classnames('sectionContainer', 'sec-three')}>
-      <h2 style={{fontWeight: 'bold'}}>Meet our team at Satriaana</h2>
-      <div className="team">
-        {renderTeam()}
-      </div>
+      <h2 style={{ fontWeight: 'bold' }}>Meet our team at Satriaana</h2>
+      <div className="team">{renderTeam()}</div>
     </div>
   );
 };
