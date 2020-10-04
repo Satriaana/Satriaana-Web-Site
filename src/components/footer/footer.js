@@ -25,12 +25,7 @@ class Footer extends Component {
                 style={{ marginBottom: '30px' }}
               >
                 <p style={{ color: 'rgb(255,255,255)' }}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                Satriaana is an independent and transparent open-source community and an organization that respects the privacy of people. We aim to filter open-source projects for authenticity, while helping other open-source volunteer startups to rise. Anyone can volunteer for us as we're a volunteer based community and an organization.
                 </p>
               </div>
               <div
@@ -47,7 +42,7 @@ class Footer extends Component {
                 </p>
                 <p>
                   <i className="fas fa-envelope"></i> Email:{' '}
-                  <a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a>
+                  <a href="mailto:lorem@ipsum.com">test@satriaana.org</a>
                 </p>
                 <p>
                   <i className="fab fa-firefox"></i> Mozilla Community:
