@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import "./toggleTheme.css";
+import ToggleMode from "../Services/toggleMode";
 import HeaderLogo from "../../assets/satriaana-logo.png";
 
 class header extends Component {
@@ -68,10 +70,15 @@ class header extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about">
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/about"
+                  >
                     About
                   </Link>
                 </li>
+                <ToggleMode/>
               </ul>
             </div>
           </div>
