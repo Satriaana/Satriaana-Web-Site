@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Satriaana-Web-Site/static/css/main.febaaf10.chunk.css",
-    "main.js": "/Satriaana-Web-Site/static/js/main.79697991.chunk.js",
-    "main.js.map": "/Satriaana-Web-Site/static/js/main.79697991.chunk.js.map",
+    "main.css": "/Satriaana-Web-Site/static/css/main.0800f214.chunk.css",
+    "main.js": "/Satriaana-Web-Site/static/js/main.dac9a6c7.chunk.js",
+    "main.js.map": "/Satriaana-Web-Site/static/js/main.dac9a6c7.chunk.js.map",
     "runtime-main.js": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js",
     "runtime-main.js.map": "/Satriaana-Web-Site/static/js/runtime-main.a6134674.js.map",
     "static/css/2.11829350.chunk.css": "/Satriaana-Web-Site/static/css/2.11829350.chunk.css",
-    "static/js/2.bdcb8ba8.chunk.js": "/Satriaana-Web-Site/static/js/2.bdcb8ba8.chunk.js",
-    "static/js/2.bdcb8ba8.chunk.js.map": "/Satriaana-Web-Site/static/js/2.bdcb8ba8.chunk.js.map",
+    "static/js/2.ed8d1c8c.chunk.js": "/Satriaana-Web-Site/static/js/2.ed8d1c8c.chunk.js",
+    "static/js/2.ed8d1c8c.chunk.js.map": "/Satriaana-Web-Site/static/js/2.ed8d1c8c.chunk.js.map",
     "index.html": "/Satriaana-Web-Site/index.html",
-    "precache-manifest.829b3395536f7974cea4393fa5dea18f.js": "/Satriaana-Web-Site/precache-manifest.829b3395536f7974cea4393fa5dea18f.js",
+    "precache-manifest.b755d4c5f8a2165a5f67e424d199e05c.js": "/Satriaana-Web-Site/precache-manifest.b755d4c5f8a2165a5f67e424d199e05c.js",
     "service-worker.js": "/Satriaana-Web-Site/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Satriaana-Web-Site/static/css/2.11829350.chunk.css.map",
-    "static/css/main.febaaf10.chunk.css.map": "/Satriaana-Web-Site/static/css/main.febaaf10.chunk.css.map",
-    "static/js/2.bdcb8ba8.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.bdcb8ba8.chunk.js.LICENSE.txt",
+    "static/css/main.0800f214.chunk.css.map": "/Satriaana-Web-Site/static/css/main.0800f214.chunk.css.map",
+    "static/js/2.ed8d1c8c.chunk.js.LICENSE.txt": "/Satriaana-Web-Site/static/js/2.ed8d1c8c.chunk.js.LICENSE.txt",
     "static/media/aboutcover.png": "/Satriaana-Web-Site/static/media/aboutcover.522b73ac.png",
     "static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.png": "/Satriaana-Web-Site/static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.63a8a8b7.png",
     "static/media/contactcover.png": "/Satriaana-Web-Site/static/media/contactcover.e637d859.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.a6134674.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.bdcb8ba8.chunk.js",
-    "static/css/main.febaaf10.chunk.css",
-    "static/js/main.79697991.chunk.js"
+    "static/js/2.ed8d1c8c.chunk.js",
+    "static/css/main.0800f214.chunk.css",
+    "static/js/main.dac9a6c7.chunk.js"
   ]
 }
