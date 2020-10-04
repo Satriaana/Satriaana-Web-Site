@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -37,3 +42,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- GENERAL STYLES --- */
+
+.sectionContainer {
+  padding: 10% 15%;
+  text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+  .sectionContainer {
+    padding: 4rem 6rem;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+/*
+Colors:
+
+darkGrey: #34404A
+grey: #6A6F74
+white: #FFF
+
+gradient background:
+background: rgb(223,72,34);
+background: linear-gradient(90deg, rgba(223,72,34,1) 0%, rgba(217,3,116,1) 100%);
+*/
+

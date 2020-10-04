@@ -1,0 +1,84 @@
+/* Get in touch starts here */
+.get-in-touch-bold {
+  font-weight: 600;
+}
+
+.get-in-touch-desc {
+  color: black
+}
+
+.get-in-touch-button {
+  border-style: none;
+  
+  display: flex;
+
+  margin: 2rem auto;
+  padding: 8px 2rem;
+}
+/* Get in touch ends here */
+
+/* Form starts here */
+.form {
+  background: linear-gradient(90deg, #df4722, #d90b74);
+
+  width: 100%;
+
+  padding: 5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Kumbh Sans'
+}
+
+.form h1 {
+  align-self: flex-start;
+
+  color: white
+}
+
+.form form {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input, textarea {
+  width: 80%;
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  border-style: none;
+  border-radius: 5px;
+}
+
+.form textarea {
+  resize: vertical;
+
+  margin-bottom: 1rem
+}
+
+.form button {
+  border-style: none;
+  border-radius: 2px;
+
+  background-color: #E9E9E9;
+
+  margin-right: 2rem;
+  padding: 0 1rem;
+}
+/* Form ends here */
+
+/* Questions start here */
+.question-title {
+  font-weight: 600;
+}
+
+.question-description {
+  color: black
+}
+/* Questions ends here */

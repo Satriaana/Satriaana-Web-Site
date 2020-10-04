@@ -47,13 +47,43 @@
   vertical-align: middle; 
 }
 
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.3;
+}
 
-@media (min-width: 992px) and (max-width: 1199px) {
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+
+@media (min-width: 992px){
 	.footer-top { 
     padding: 40px 0 20px 0; 
   }
 	.footer-bottom { 
     padding: 0 0 40px 0;
+  }
+  #copyright{
+    text-align: left;
   }
 }
 
@@ -64,6 +94,9 @@
 	.footer-bottom { 
     padding: 0 0 40px 0;
   }
+  #copyright{
+  text-align: left;
+}
 }
 
 @media (max-width: 767px) {
