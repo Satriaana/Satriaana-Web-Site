@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './footer.css';
 import FooterLogo from '../../assets/sat-white.png';
 import FaAngleUp from './gotopbutton.js';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
-
   render() {
     return (
       //uses MDBootstrap in some parts
@@ -63,19 +63,25 @@ class Footer extends Component {
                 <div className="row footer-items">
                   <div className="col-md-12">
                     <p>
-                      <a href="#">Home</a>
+                    <Link style={{ textDecoration: 'none' }} to="/Satriaana-Web-Site">
+                      <a href="/Satriaana-Web-Site">Home</a>
+                      </Link>
                     </p>
                     <p>
-                      <a href="#">Blog</a>
+                      <a href="https://blog.satriaana.org">Blog</a>
                     </p>
                     <p>
-                      <a href="#">Forum</a>
+                      <a href="https://forum.satriaana.org">Forum</a>
                     </p>
                     <p>
-                      <a href="#">About</a>
+                    <Link style={{ textDecoration: 'none' }} to="/about">
+                      <a href="/about">About</a>
+                      </Link>
                     </p>
                     <p>
-                      <a href="#">Contact</a>
+                    <Link style={{ textDecoration: 'none' }} to="/contact">
+                      <a href="/contact">Contact</a>
+                      </Link>
                     </p>
                   </div>
                 </div>
