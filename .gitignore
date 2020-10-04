@@ -1,5 +1,7 @@
-node_modules
-
+node_modules/
+.DS_Store
+.cache/
+dist/
+coverage/
+.vscode/
 .env
-.prettierrc.js/
-.eslintrc.js/
