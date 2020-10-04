@@ -47,9 +47,9 @@ class header extends Component {
                 >
                   {" "}
                   <li className="nav-item">
-                    <a className="nav-link" href="/Satriaana-Web-Site">
+                    <Link className="nav-link" to="/Satriaana-Web-Site">
                       Home
-                    </a>
+                    </Link>
                   </li>
                 </Link>
                 <li className="nav-item">
@@ -63,15 +63,15 @@ class header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
-                <Link style={{ textDecoration: "none" }} to="/about">
-                  <li className="nav-item">
-                    <a className="nav-link">About</a>
-                  </li>
-                </Link>
+                <li className="nav-item">
+                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about">
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
