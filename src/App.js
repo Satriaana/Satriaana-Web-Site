@@ -12,7 +12,7 @@ import Newsletter from "./components/newslettter/newsletter";
 import Titleintroduction from "./components/titleintroduction/titleintroduction";
 import About from "./components/about/About";
 import Contact from "./components/contact/contact";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //app home
 const Home = () => {
