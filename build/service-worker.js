@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Satriaana-Web-Site/precache-manifest.713b99b8a8f62f1d274d29f826c6e5f1.js"
+  "/Satriaana-Web-Site/precache-manifest.b35209e49ab23be391b2a3995ffdee24.js"
 );
 
 self.addEventListener('message', (event) => {
