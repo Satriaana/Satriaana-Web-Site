@@ -12,7 +12,12 @@ import Newsletter from "./components/newslettter/newsletter";
 import Titleintroduction from "./components/titleintroduction/titleintroduction";
 import About from "./components/about/About";
 import Contact from "./components/contact/contact";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 //app home
 const Home = () => {
@@ -31,13 +36,20 @@ const Home = () => {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Header />
           <Switch>
             <Route exact true path="/" component={Home} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
+
+            {/* Create a 404 Page If route not found,
+            currently being Redirected to Home Page */}
+            <Route
+              path="/"
+              render={() => <Redirect to={{ pathname: "/" }} />}
+            />
           </Switch>
           <Newsletter />
           <Footer />
