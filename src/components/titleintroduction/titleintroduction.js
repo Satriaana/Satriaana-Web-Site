@@ -18,7 +18,7 @@ class Titleintroduction extends Component {
                 fontWeight: 'bold',
               }}
             >
-              Lorem Ipsum Dolor Sit Amet
+              Privacy & Security are like eating and breathing as it is one of life’s basic requirements.
             </h1>
             <p
               style={{

@@ -15,12 +15,12 @@ class Newsletter extends Component {
           <div className="row">
             <div className="col-md-12 text-center">
               <h1>
-                <strong>Subscribe for our Newsletter</strong>
+                <strong>Subscribe to our Newsletter</strong>
                 <br />
               </h1>
 
               <p>
-                Subscribe for our newsletter to stay in touch&nbsp;
+                Stay in touch for new updates&nbsp;
                 <br />
                 Don't worry, we won't be spamming you
                 <br />

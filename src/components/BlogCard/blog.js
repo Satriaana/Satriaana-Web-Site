@@ -20,7 +20,7 @@ class Blog extends Component {
                   fontWeight: 'bold',
                 }}
               >
-                Blog
+                Innovating for a Safer Digital World
                 <button
                   className="btn btn-primary float-right"
                   type="button"
@@ -40,9 +40,8 @@ class Blog extends Component {
                   color: 'rgb(255,255,255)',
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
+                
+                <br/>A platform to voice the issues you encounter in the technical world and share your knowledge driving the communication evolution
                 <br />
               </p>
             </div>
