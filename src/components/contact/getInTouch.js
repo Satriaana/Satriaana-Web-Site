@@ -9,11 +9,7 @@ export default function GetInTouch() {
         <div className="col-md-12" style={{ textAlign: 'start' }}>
           <h1 className="get-in-touch-bold">Get in touch</h1>
           <p className="get-in-touch-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in
+          Dive into our community portal where you can find answers for common questions. If you don’t find what you are looking for, create a new thread and look for the answers with the community.
           </p>
           <button className="btn btn-primary" style={{ marginBottom: '30px' }}>
             Ask help in Community Forum
