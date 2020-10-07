@@ -5,14 +5,15 @@ import './SectionOne.css';
 const SectionOne = () => {
   return (
     <div className={classnames('sectionContainer', 'sec-one')}>
-      <h2 style={{ fontWeight: 'bold' }}>About Satriaana,</h2>
-      <h5>
-        Satriaana is an independent and transparent open-source community/
-        organization that respects the privacy of people. We aim to filter
-        open-source projects for authenticity, while helping other open-source
-        volunteer startups to rise. Anyone can volunteer for us as we're a
-        volunteer based community/ organization.
-      </h5>
+      <h2 style={{ fontWeight: 'bold' }}>We are a volunteer-based community/ organization, that helps other open-source volunteer startups to rise.</h2>
+      {<h5>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+      </h5>}
     </div>
   );
 };

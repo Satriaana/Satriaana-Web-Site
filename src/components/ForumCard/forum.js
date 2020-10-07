@@ -15,9 +15,10 @@ class Forum extends Component {
                   fontSize: '40px',
                   fontFamily: 'Kumbh Sans',
                   fontWeight: 'bold',
+                  marginBottom: '30px'
                 }}
               >
-                Forum
+                Collaborate, Communicate, Create.
                 <button className="btn btn-primary float-right" type="button">
                   Lorem Ipsum
                 </button>
@@ -30,10 +31,9 @@ class Forum extends Component {
                   color: '#21262b',
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;
+                A place to get together as a community and &nbsp;
                 <br />
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
+                collaborate to build a better future for open-source
                 <br />
               </p>
             </div>

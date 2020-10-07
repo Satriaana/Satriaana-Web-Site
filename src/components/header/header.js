@@ -41,17 +41,11 @@ class header extends Component {
               id="navcol-1"
             >
               <ul className="nav navbar-nav">
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="/Satriaana-Web-Site"
-                >
-                  {" "}
-                  <li className="nav-item">
-                    <a className="nav-link" href="/Satriaana-Web-Site">
-                      Home
-                    </a>
-                  </li>
-                </Link>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
+                    Home
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <a className="nav-link" href="https://blog.satriaana.org">
                     Blog
@@ -63,15 +57,15 @@ class header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
-                <Link style={{ textDecoration: "none" }} to="/about">
-                  <li className="nav-item">
-                    <a className="nav-link">About</a>
-                  </li>
-                </Link>
+                <li className="nav-item">
+                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about">
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
