@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import './carousel.css';
-import Cover from '../../assets/cover.png';
+import React from "react";
 
-class carousel extends Component {
-  render() {
-    return (
-      <div>
-        <img alt="" src={Cover} style={{ width: '100%' }} />
-      </div>
-    );
-  }
-}
+import styles from "./Carousel.module.css";
 
-export default carousel;
+export const Carousel = ({ image, alt }) => {
+  return (
+    <div className={styles.container}>
+      <img className={styles.image} alt={alt} src={image} />
+    </div>
+  );
+};
