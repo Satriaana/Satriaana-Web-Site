@@ -1,0 +1,22 @@
+.container {
+    padding: 10% 15%;
+    text-align: left;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
+.container p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        padding: 4rem 6rem;
+    }
+}
