@@ -1,15 +1,6 @@
 import React, { Component } from "react";
 
 //components
-import Header from "./components/header/header";
-import Blog from "./components/BlogCard/blog";
-import Forum from "./components/ForumCard/forum";
-import Footer from "./components/footer/footer";
-import Cover from "./components/cover/cover";
-import Carousel from "./components/carousell/carousel";
-import Twitter from "./components/twitterfeed/twitter";
-import Newsletter from "./components/newslettter/newsletter";
-import Titleintroduction from "./components/titleintroduction/titleintroduction";
 import About from "./components/about/About";
 import Contact from "./components/contact/contact";
 import {
@@ -18,29 +9,34 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import { DefaultLayout } from "./layouts/DefaultLayout";
 
 //app home
-const Home = () => {
-  return (
-    <>
-      <Cover />
-      <Carousel />
-      <Titleintroduction />
-      <Blog />
-      <Forum />
-      <Twitter />
-    </>
-  );
-};
+// const Home = () => {
+//   return (
+//     <>
+//       <Cover />
+//       <Carousel />
+//       <Titleintroduction />
+//       <Blog />
+//       <Forum />
+//       <Twitter />
+//     </>
+//   );
+// };
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-        <div className="App">
-          <Header />
+        <DefaultLayout>
           <Switch>
-            <Route exact true path="/" component={Home} />
+            <Route
+              exact
+              true
+              path="/"
+              render={() => <div>Render home page</div>}
+            />
             <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
 
@@ -51,9 +47,7 @@ class App extends Component {
               render={() => <Redirect to={{ pathname: "/" }} />}
             />
           </Switch>
-          <Newsletter />
-          <Footer />
-        </div>
+        </DefaultLayout>
       </Router>
     );
   }
