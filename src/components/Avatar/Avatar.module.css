@@ -1,0 +1,14 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 1rem;
+}

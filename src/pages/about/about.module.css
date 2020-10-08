@@ -1,0 +1,28 @@
+.part h2 {
+    margin-right: 100px;
+    width: 10rem;
+    min-width: 200px;
+}
+
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.team > * {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .part {
+        display: flex;
+    }
+
+    .team > * {
+        width: 340px;
+    }
+}
