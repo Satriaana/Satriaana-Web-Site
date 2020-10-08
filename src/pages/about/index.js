@@ -8,8 +8,34 @@ import { Section } from "../../components/Section";
 import SectionThree from "../../components/about/SectionThree";
 
 import styles from "./about.module.css";
+import Member from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
+import { Avatar } from "../../components/Avatar";
 
-// TODO: Replace styles.part with a <Grid> and <Grid.Item> component
+// TODO: Replace styles.part with a <Grid> and <Grid.Item> components
+// TODO: Replace styles.team with <Grid> and <Grid.Item> components
+
+const teamMembers = [
+  {
+    name: "John Doe",
+    image: Member,
+  },
+  {
+    name: "John Doe",
+    image: Member,
+  },
+  {
+    name: "John Doe",
+    image: Member,
+  },
+  {
+    name: "John Doe",
+    image: Member,
+  },
+  {
+    name: "John Doe",
+    image: Member,
+  },
+];
 
 export const About = () => {
   return (
@@ -56,6 +82,14 @@ export const About = () => {
             platform where people can voice the issues they encounter in the
             technical world.
           </p>
+        </div>
+      </Section>
+      <Section>
+        <h2>Meet our team at Satriaana</h2>
+        <div className={styles.team}>
+          {teamMembers.map((member) => {
+            return <Avatar image={member.image} name={member.name} />;
+          })}
         </div>
       </Section>
       <SectionThree />
