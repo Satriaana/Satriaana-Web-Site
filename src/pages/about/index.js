@@ -1,15 +1,13 @@
 import React from "react";
 
-import AboutCover from "../../assets/aboutcover.png";
-
 import { DefaultLayout } from "../../layouts/DefaultLayout";
 import { Carousel } from "../../components/Carousel";
 import { Section } from "../../components/Section";
-import SectionThree from "../../components/about/SectionThree";
+import { Avatar } from "../../components/Avatar";
 
 import styles from "./about.module.css";
+import AboutCover from "../../assets/aboutcover.png";
 import Member from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
-import { Avatar } from "../../components/Avatar";
 
 // TODO: Replace styles.part with a <Grid> and <Grid.Item> components
 // TODO: Replace styles.team with <Grid> and <Grid.Item> components
@@ -92,7 +90,6 @@ export const About = () => {
           })}
         </div>
       </Section>
-      <SectionThree />
     </DefaultLayout>
   );
 };
