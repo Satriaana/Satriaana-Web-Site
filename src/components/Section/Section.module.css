@@ -29,6 +29,11 @@
     color: white;
 }
 
+.backgroundGradient > hr {
+    margin: 3rem auto;
+    background-color: white;
+}
+
 @media only screen and (min-width: 600px) {
     .container {
         padding: 4rem 6rem;

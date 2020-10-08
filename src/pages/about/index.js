@@ -5,8 +5,11 @@ import AboutCover from "../../assets/aboutcover.png";
 import { DefaultLayout } from "../../layouts/DefaultLayout";
 import { Carousel } from "../../components/Carousel";
 import { Section } from "../../components/Section";
-import SectionTwo from "../../components/about/SectionTwo";
 import SectionThree from "../../components/about/SectionThree";
+
+import styles from "./about.module.css";
+
+// TODO: Replace styles.part with a <Grid> and <Grid.Item> component
 
 export const About = () => {
   return (
@@ -38,7 +41,23 @@ export const About = () => {
           sometimes on purpose (injected humour and the like).
         </p>
       </Section>
-      <SectionTwo />
+      <Section hasBackgroundGradient>
+        <div className={styles.part}>
+          <h2>Our Vision</h2>
+          <p>Unbiased transparency and privacy for everyone.</p>
+        </div>
+        <hr />
+        <div className={styles.part}>
+          <h2>Our Mission</h2>
+          <p>
+            To bequeath to the society, an independent and transparent open
+            source community that questions the authenticity of open source
+            projects and helps open source startups to rise, while being a
+            platform where people can voice the issues they encounter in the
+            technical world.
+          </p>
+        </div>
+      </Section>
       <SectionThree />
     </DefaultLayout>
   );
