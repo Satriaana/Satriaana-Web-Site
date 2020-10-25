@@ -9,31 +9,11 @@ class Twitter extends Component {
     return (
       <div style={{ backgroundColor: "#f2f2f2", fontFamily: "Kumbh Sans" }}>
         <div className="container">
-          <div className="row" style={{ paddingBottom: "30px" }}>
-            <div className="col-md-12">
-              <h1
-                style={{
-                  fontSize: "40px",
-                  fontWeight: "bold",
-                }}
-              >
-                See What's Happening...
-              </h1>
-            </div>
-          </div>
-          <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px"}}>
-              <TwitterFollowButton screenName={"Satriaana2"}/>
-          </div>
-          <div style={{ display: "flex", justifyContent: "space-evenly"}}>
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName="Satriaana2"
-              options={{ width: 500 }}
-              noBorders={true}
-              noFooter={true}
-              noHeader={true}
-            />
-          </div>
+
+
+        <div class="elfsight-app-0994baaf-5697-4735-a6d6-8fd3021fc7c3"></div>
+
+          
         </div>
       </div>
     );
