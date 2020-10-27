@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "162d39ddc6d5d2690ab74bb2d37a5ee7",
+    "revision": "0ccd2cdf812784b23d582d238984a714",
     "url": "/Satriaana-Web-Site/index.html"
   },
   {
-    "revision": "da56e971b6152f6f921e",
+    "revision": "b70213da6a5d70169ae5",
     "url": "/Satriaana-Web-Site/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "2148878f946c93489f93",
-    "url": "/Satriaana-Web-Site/static/css/main.febaaf10.chunk.css"
+    "revision": "b6933d60e1d32f6b859e",
+    "url": "/Satriaana-Web-Site/static/css/main.b29d67a4.chunk.css"
   },
   {
-    "revision": "da56e971b6152f6f921e",
-    "url": "/Satriaana-Web-Site/static/js/2.1c7676a5.chunk.js"
+    "revision": "b70213da6a5d70169ae5",
+    "url": "/Satriaana-Web-Site/static/js/2.df44bab9.chunk.js"
   },
   {
     "revision": "d82c31829d37991262b5e93968bcca1f",
-    "url": "/Satriaana-Web-Site/static/js/2.1c7676a5.chunk.js.LICENSE.txt"
+    "url": "/Satriaana-Web-Site/static/js/2.df44bab9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2148878f946c93489f93",
-    "url": "/Satriaana-Web-Site/static/js/main.48952958.chunk.js"
+    "revision": "b6933d60e1d32f6b859e",
+    "url": "/Satriaana-Web-Site/static/js/main.f602d135.chunk.js"
   },
   {
     "revision": "d00cdac9d17062a70cea",
