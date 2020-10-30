@@ -8,11 +8,12 @@ class header extends Component {
     return (
       <header>
         <nav
-          className="navbar navbar-light navbar-expand-md"
+          className="navbar navbar-light navbar-expand-md fixed-top"
           style={{
             fontFamily: "Kumbh Sans",
             fontWeight: "bold",
             fontSize: "18px",
+            backgroundColor: "#FFF",
           }}
         >
           <div className="container-fluid">
