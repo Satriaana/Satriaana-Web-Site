@@ -25,7 +25,7 @@ jobs:
       
       - name: Build
         run: |
-          docker build -t gcr.io/${{ secrets.satriaana-blog }}/satriaanawebsite:latest .
+          docker build . -t gcr.io/${{ secrets.satriaana-blog }}/satriaanawebsite:latest .
 
       - name: Push
         run: |
