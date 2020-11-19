@@ -25,17 +25,17 @@ jobs:
       
       - name: Build
         run: |
-          docker build -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite:latest .
+          docker build -t gcr.io/${{ secrets.satriaana-blog }}/satriaanawebsite:latest .
 
       - name: Push
         run: |
-          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite:latest
+          docker push gcr.io/${{ secrets.satriaana-blog }}/satriaanawebsite:latest
 
       - name: Deploy
         run: |
           gcloud run deploy satriaanawebsite \
           --region europe-west1 \
-          --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite \
+          --image gcr.io/${{ secrets.satriaana-blog }}/satriaanawebsite \
           --platform managed \
           --allow-unauthenticated \
-          --project ${{ secrets.GCP_PROJECT_ID }}
+          --project ${{ secrets.satriaana-blog }}
