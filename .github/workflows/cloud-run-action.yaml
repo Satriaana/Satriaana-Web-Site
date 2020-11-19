@@ -33,7 +33,7 @@ jobs:
 
       - name: Deploy
         run: |
-          gcloud run deploy satriaana-blog \
+          gcloud run deploy satriaanawebsite \
           --region europe-west1 \
           --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite \
           --platform managed \
