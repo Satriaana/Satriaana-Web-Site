@@ -15,11 +15,19 @@ app.post('/', function (req, res) {
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 */
-var express = require('express');
+	
+var express = require("express");
+ 
 var app = express();
-
-//setting middleware
-app.use(express.static(__dirname + 'public')); //Serves resources from public folder
-
-
-var server = app.listen(8080);
+ 
+app.use(express.static('public'));
+ 
+//make way for some custom css, js and images
+app.use('/css', express.static(__dirname + '/public/css'));
+app.use('/js', express.static(__dirname + '/public/js'));
+app.use('/images', express.static(__dirname + '/public/images'));
+ 
+var server = app.listen(8080, function(){
+    var port = server.address().port;
+    console.log("Server started at http://localhost:%s", port);
+});
