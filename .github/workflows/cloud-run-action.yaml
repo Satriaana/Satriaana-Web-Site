@@ -32,10 +32,4 @@ jobs:
           docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite:latest
 
       - name: Deploy
-        run: |
-          gcloud run deploy satriaanawebsite \
-          --region europe-west1 \
-          --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/satriaanawebsite \
-          --platform managed \
-          --allow-unauthenticated \
-          --project ${{ secrets.GCP_PROJECT_ID }}
+        run: gcloud run deploy ${{ secrets.GCP_PROJECT_ID }} --image satriaanawebsite --region us-central1 --platform managed
