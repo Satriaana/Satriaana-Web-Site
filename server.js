@@ -26,7 +26,8 @@ app.use(express.static('public'));
 app.use('/css', express.static(__dirname + '/src/css'));
 app.use('/js', express.static(__dirname + '/src/js'));
 app.use('/assets', express.static(__dirname + '/src/assets'));
- 
+app.use('/json', express.static(__dirname + '/public')); 
+
 var server = app.listen(8080, function(){
     var port = server.address().port;
     console.log("Server started at http://localhost:%s", port);
