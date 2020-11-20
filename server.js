@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 const express = require('express');
 
@@ -14,3 +14,12 @@ app.post('/', function (req, res) {
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
+*/
+var express = require('express');
+var app = express();
+
+//setting middleware
+app.use(express.static(__dirname + 'public')); //Serves resources from public folder
+
+
+var server = app.listen(8080);
