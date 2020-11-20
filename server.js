@@ -23,9 +23,9 @@ var app = express();
 app.use(express.static('public'));
  
 //make way for some custom css, js and images
-app.use('/css', express.static(__dirname + '/public/css'));
-app.use('/js', express.static(__dirname + '/public/js'));
-app.use('/images', express.static(__dirname + '/public/images'));
+app.use('/css', express.static(__dirname + '/src/css'));
+app.use('/js', express.static(__dirname + '/src/js'));
+app.use('/assets', express.static(__dirname + '/src/assets'));
  
 var server = app.listen(8080, function(){
     var port = server.address().port;
