@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 
-const httpPort = 80
+const httpPort = 8080
 
 const app = express()
 
