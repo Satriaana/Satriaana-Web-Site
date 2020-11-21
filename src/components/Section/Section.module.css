@@ -1,0 +1,41 @@
+.container {
+    padding: 10% 15%;
+    text-align: left;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
+.container p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.backgroundGradient {
+    background: rgb(223, 72, 34);
+    background: linear-gradient(
+            90deg,
+            rgba(223, 72, 34, 1) 0%,
+            rgba(217, 3, 116, 1) 100%
+    );
+}
+
+.backgroundGradient,
+.backgroundGradient p {
+    color: white;
+}
+
+.backgroundGradient > hr {
+    margin: 3rem auto;
+    background-color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        padding: 4rem 6rem;
+    }
+}
