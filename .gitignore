@@ -5,3 +5,4 @@ dist/
 coverage/
 .vscode/
 .env
+server/node_modules
