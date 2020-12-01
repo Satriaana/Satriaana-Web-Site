@@ -38,6 +38,7 @@ class Newsletter extends Component {
               />
               <button
                 className="btn btn-primary"
+                id="btn"
                 type="button"
                 style={{ marginTop: '7px', marginBottom: '9px', height: '38px', width: '120px' }}
               >

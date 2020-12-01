@@ -12,3 +12,14 @@ p {
       font-family: Poppins, sans-serif;
       color: rgb(231,231,231);
 }
+
+#btn {
+      border: none;
+      /* padding-top: 6px; */
+  }
+  
+  #btn:focus, #btn:active {
+      background-color: red;
+      outline: none;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.20);
+  }
