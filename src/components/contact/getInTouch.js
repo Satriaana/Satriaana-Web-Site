@@ -11,7 +11,7 @@ export default function GetInTouch() {
           <p className="get-in-touch-desc">
           Dive into our community portal where you can find answers for common questions. If you don’t find what you are looking for, create a new thread and look for the answers with the community.
           </p>
-          <button className="btn btn-primary" style={{ marginBottom: '30px' }}>
+          <button className="btn btn-primary" id="btn" style={{ marginBottom: '30px' }}>
             Ask help in Community Forum
           </button>
         </div>
