@@ -75,7 +75,7 @@ export default function Form() {
         <div className="col-md-3" style={{ alignSelf: 'flex-end' }}>
           <button
             class="btn btn-primary"
-            style={{ width: '100px', height: '40px' }}
+            style={{ width: '100px', height: '40px', paddingTop: '6px'}}
           >
             Submit
           </button>

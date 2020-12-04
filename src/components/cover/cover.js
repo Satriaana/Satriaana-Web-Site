@@ -20,7 +20,7 @@ class Cover extends Component {
               href="https://satriaana.typeform.com/to/XYGqfnkI"
               target="_blank"
             >
-              <button className="btn btn-primary" type="button">
+              <button className="btn btn-primary" type="button" id="btn">
                 Get started
               </button>
             </a>
