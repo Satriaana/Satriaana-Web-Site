@@ -1,40 +1,14 @@
 import React from "react";
+import './team.css';
 
 import { DefaultLayout } from "../../layouts/DefaultLayout";
 import { Section } from "../../components/Section";
-import { Avatar } from "../../components/Avatar";
 
 import styles from "./about.module.css";
-import Member from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
 import blogImg from "../../assets/blog.jpg";
 import devImg from "../../assets/dev.jpg";
 import designImg from "../../assets/design.jpg";
-
-// TODO: Replace styles.part with a <Grid> and <Grid.Item> components
-// TODO: Replace styles.team with <Grid> and <Grid.Item> components
-
-const teamMembers = [
-  {
-    name: "John Doe",
-    image: Member,
-  },
-  {
-    name: "John Doe",
-    image: Member,
-  },
-  {
-    name: "John Doe",
-    image: Member,
-  },
-  {
-    name: "John Doe",
-    image: Member,
-  },
-  {
-    name: "John Doe",
-    image: Member,
-  },
-];
+import teamImg from "../../assets/satriaanacore.png";
 
 export const About = () => {
   return (
@@ -174,11 +148,19 @@ export const About = () => {
         </div>
       </Section>
       <Section>
-        <h2>Meet the Backbone of Satriaana</h2>
-        <div className={styles.team}>
-          {teamMembers.map((member) => {
-            return <Avatar image={member.image} name={member.name} />;
-          })}
+        <div className="row">
+          <div className="col-md-5">
+            <div className="row">
+              <div className="coreTeam">
+              <h1 style={{fontWeight: 'bold'}}>Meet the Backbone of Satriaana</h1>
+              <p>We are a group of individuals with a concern for how less private and proprietary the digital world is.</p>
+              <p style={{fontWeight: 'bold', marginTop: '15px'}}>We strive to change that.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-7">
+            <img src={teamImg} alt="Core team of Satriaana" style={{width: '100%'}} />
+          </div>
         </div>
       </Section>
     </DefaultLayout>
