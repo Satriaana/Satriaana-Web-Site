@@ -6,7 +6,10 @@ import { Section } from "../../components/Section";
 import { Avatar } from "../../components/Avatar";
 
 import styles from "./about.module.css";
-import AboutCover from "../../assets/aboutcover.png";
+import SatriaanaCore from "../../assets/satriaanacore.png";
+import devImg from '../../assets/dev.jpg';
+import designImg from '../../assets/design.jpg';
+import blogImg from '../../assets/blog.jpg';
 import Member from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
 
 // TODO: Replace styles.part with a <Grid> and <Grid.Item> components
@@ -38,32 +41,120 @@ const teamMembers = [
 export const About = () => {
   return (
     <DefaultLayout>
-      <Carousel image={AboutCover} alt="We build the future of open source" />
       <Section>
-        <h2>
-          We are a volunteer-based community/ organization, that helps other
-          open-source volunteer startups to rise.
-        </h2>
+        <h1 style={{fontWeight: 'bold'}}>
+          We build the Future of Open Source
+        </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum. Why do we use it? It is a long
-          established fact that a reader will be distracted by the readable
-          content of a page when looking at its layout. The point of using Lorem
-          Ipsum is that it has a more-or-less normal distribution of letters, as
-          opposed to using 'Content here, content here', making it look like
-          readable English. Many desktop publishing packages and web page
-          editors now use Lorem Ipsum as their default model text, and a search
-          for 'lorem ipsum' will uncover many web sites still in their infancy.
-          Various versions have evolved over the years, sometimes by accident,
-          sometimes on purpose (injected humour and the like).
+        We are an independent and transparent open-source community and an organization that respects the privacy of people. <br/>We aim to filter open-source projects for authenticity, while helping other open-source volunteer startups to rise.
         </p>
+        <h2 style={{fontWeight: 'bold', paddingTop: '50px'}}>
+          Our Teams
+        </h2>
+        <div className="row" style={{ paddingTop: '30px'}}>
+            <div className="col-md-4">
+              <div
+                className="card"
+                style={{ borderRadius: '10px', marginBottom: '30px' }}
+              >
+                <img
+                  className="card-img w-100 d-block"
+                  src={blogImg}
+                  style={{
+                    objectFit: 'cover',
+                    height: '320px',
+                    borderRadius: '10px',
+                  }}
+                />
+                <div
+                  className="card-img-overlay"
+                  style={{
+                    borderRadius: '10px',
+                  }}
+                >
+                  <h4
+                    style={{
+                      color: 'rgb(255,255,255)',
+                      textShadow: '0px 0px 1px',
+                    }}
+                  >
+                    Blog Team
+                  </h4>
+                </div>
+              </div>
+              <p style={{marginBottom: '30px'}}>
+              We need open minded out of the box thinkers with technical article writing skills. Come and join us to expand your horizons.
+              </p>
+            </div>
+
+            <div className="col-md-4">
+              <div
+                className="card"
+                style={{ borderRadius: '10px', marginBottom: '30px' }}
+              >
+                <img
+                  className="card-img w-100 d-block"
+                  src={devImg}
+                  style={{
+                    objectFit: 'cover',
+                    height: '320px',
+                    borderRadius: '10px',
+                  }}
+                />
+                <div
+                  className="card-img-overlay"
+                  style={{
+                    borderRadius: '10px',
+                  }}
+                >
+                  <h4
+                    style={{
+                      color: 'rgb(255,255,255)',
+                      textShadow: '0px 0px 1px',
+                    }}
+                  >
+                    Developing Team
+                  </h4>
+                </div>
+              </div>
+              <p style={{marginBottom: '30px'}}>
+              We are looking for enthusiastic Developers to join our team. If you have an interest in innovative technology and have the talent, this is the role for you.
+              </p>
+            </div>
+
+            <div className="col-md-4">
+              <div
+                className="card"
+                style={{ borderRadius: '10px', marginBottom: '30px' }}
+              >
+                <img
+                  className="card-img w-100 d-block"
+                  src={designImg}
+                  style={{
+                    objectFit: 'cover',
+                    height: '320px',
+                    borderRadius: '10px',
+                  }}
+                />
+                <div
+                  className="card-img-overlay"
+                  style={{ borderRadius: '10px' }}
+                >
+                  <h4
+                    style={{
+                      color: 'rgb(255,255,255)',
+                      textShadow: '0px 0px 1px',
+                    }}
+                  >
+                    Design Team
+                  </h4>
+                </div>
+              </div>
+              <p style={{marginBottom: '30px'}}>
+                If you are an individual with the passion for designing solutions that are simply amazing and game-changing, This will be your new home.
+            </p>
+            </div>
+          </div>
       </Section>
       <Section hasBackgroundGradient>
         <div className={styles.part}>
@@ -83,12 +174,13 @@ export const About = () => {
         </div>
       </Section>
       <Section>
-        <h2>Meet our team at Satriaana</h2>
+        <h2 style={{marginBottom: '30px'}}>Meet the Backbone of Satriaana</h2>
         <div className={styles.team}>
           {teamMembers.map((member) => {
             return <Avatar image={member.image} name={member.name} />;
           })}
         </div>
+        {/* <Carousel image={SatriaanaCore} alt="Core team of Satriaana" /> */}
       </Section>
     </DefaultLayout>
   );
