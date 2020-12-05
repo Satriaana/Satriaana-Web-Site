@@ -1,0 +1,21 @@
+.coreTeam {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 767px) {
+  .coreTeam {
+    margin-top: 6em;
+    position: unset;
+  }
+}
+
+@media (max-width: 415px) {
+  .coreTeam {
+    margin-top: 8em;
+    position: unset;
+  }
+}
