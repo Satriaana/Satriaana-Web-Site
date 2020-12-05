@@ -124,20 +124,25 @@
 
   .footer-copyright{
     text-align: center;
+    position:relative; top:35px;
   }
   .footer-social{
     float: none!important;
+    position:relative; top:-30px;
   }
 }
 
 @media (max-width: 415px) {
   .footer-bottom { 
-    text-align: center;
+     text-align: center;
   }
   .footer-copyright{
     text-align: center;
+    position:relative; top:35px;
+
   }
   .footer-social{
     float: none!important;
+    position:relative; top:-30px;
   }
 }
