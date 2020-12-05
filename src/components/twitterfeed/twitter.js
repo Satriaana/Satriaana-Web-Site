@@ -20,7 +20,10 @@ class Twitter extends Component {
                 See What's Happening...
               </h1>
 
-        <div class="elfsight-app-0994baaf-5697-4735-a6d6-8fd3021fc7c3"></div>
+        <div class="elfsight-app-0994baaf-5697-4735-a6d6-8fd3021fc7c3"
+          style={{
+            zIndex: '2'
+          }}></div>
 
           
         </div>
