@@ -82,3 +82,13 @@
   color: black
 }
 /* Questions ends here */
+
+#btn {
+  border: none;
+  padding-top: 10px;
+}
+
+#btn:focus, #btn:active {
+  outline: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.20);
+}

@@ -26,6 +26,7 @@ class Blog extends Component {
                 Innovating for a Safer Digital World
                 <button
                   className="btn btn-primary float-right"
+                  id="btn"
                   type="button"
                   style={{
                     backgroundColor: 'rgb(248,248,248)',
@@ -81,6 +82,7 @@ class Blog extends Component {
                   </p>
                   <button
                     className="btn btn-primary"
+                    id="btn"
                     type="button"
                     style={{ fontFamily: 'Kumbh Sans' }}
                   >
@@ -118,6 +120,7 @@ class Blog extends Component {
                       </h5>
                       <button
                         className="btn btn-primary"
+                        id="btn"
                         type="button"
                         style={{ fontFamily: 'Kumbh Sans' }}
                       >
@@ -153,6 +156,7 @@ class Blog extends Component {
                       </h5>
                       <button
                         className="btn btn-primary"
+                        id="btn"
                         type="button"
                         style={{ fontFamily: 'Kumbh Sans' }}
                       >
@@ -190,6 +194,7 @@ class Blog extends Component {
                       </h5>
                       <button
                         className="btn btn-primary"
+                        id="btn"
                         type="button"
                         style={{ fontFamily: 'Kumbh Sans' }}
                       >

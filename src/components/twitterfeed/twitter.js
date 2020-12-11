@@ -32,11 +32,6 @@ class Twitter extends Component {
           <div class="taggbox-container" ><script defer src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script><div class="taggbox-socialwall" data-wall-id="42586" view-url="https://app.taggbox.com/widget/e/42586">  </div></div>
 
 
-
-          <div class="elfsight-app-0994baaf-5697-4735-a6d6-8fd3021fc7c3"></div>
-
-
-
         </div>
       </div>
     );

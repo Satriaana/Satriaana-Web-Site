@@ -24,7 +24,7 @@ class Footer extends Component {
                 className="col-md-4 footer-about"
                 style={{ marginBottom: '30px' }}
               >
-                <p style={{ color: 'rgb(255,255,255)' }}>
+                <p style={{ color: 'rgb(255,255,255)'}}>
                 Satriaana is an independent and transparent open-source community and an organization that respects the privacy of people. We aim to filter open-source projects for authenticity, while helping other open-source volunteer startups to rise. Anyone can volunteer for us as we're a volunteer based community and an organization.
                 </p>
               </div>

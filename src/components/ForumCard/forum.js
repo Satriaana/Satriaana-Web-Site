@@ -19,7 +19,7 @@ class Forum extends Component {
                 }}
               >
                 Collaborate, Communicate, Create.
-                <button className="btn btn-primary float-right" type="button">
+                <button className="btn btn-primary float-right" type="button" id="btn" >
                   Lorem Ipsum
                 </button>
               </h1>
