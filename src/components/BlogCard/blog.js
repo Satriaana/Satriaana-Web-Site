@@ -4,6 +4,9 @@ import article1ImgSrc from '../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.pn
 import article2ImgSrc from '../../assets/nordwood-themes-bJjsKbToY34-unsplash.png';
 import article4ImgSrc from '../../assets/arif-riyanto-vJP-wZ6hGBg-unsplash.png';
 
+var output;
+
+
 class Blog extends Component {
   render() {
     return (
@@ -73,6 +76,7 @@ class Blog extends Component {
                     Recent Article 1
                   </h5>
                   <p className="card-text" style={{ fontFamily: 'Kumbh Sans' }}>
+                   
                     Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;
                   </p>
                   <button
