@@ -25,14 +25,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-client": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
