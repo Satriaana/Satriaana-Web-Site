@@ -70,12 +70,12 @@ class Footer extends Component {
                     </p>
                     <p>
                     <Link style={{ textDecoration: 'none' }} to="/about">
-                      <a href="/about">About</a>
+                      <a href="/about" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>About</a>
                       </Link>
                     </p>
                     <p>
                     <Link style={{ textDecoration: 'none' }} to="/contact">
-                      <a href="/contact">Contact</a>
+                      <a href="/contact" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>Contact</a>
                       </Link>
                     </p>
                   </div>
@@ -98,22 +98,22 @@ class Footer extends Component {
             </div>
             <div className="col-md-6 footer-bottom">
               <div className="footer-social" style={{ float: 'right' }}>
-                <a href="https://www.facebook.com/Satriaana-108832284248709">
+                <a href="https://www.facebook.com/satriaanaorg">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/Satriaana2">
+                <a href="https://twitter.com/satriaanaorg">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/satriaana-open-script-b9543a1b3">
+                <a href="https://www.linkedin.com/in/satriaanaorg">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.instagram.com/satriaanascript/?hl=en">
+                <a href="https://www.instagram.com/satriaanaorg">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://medium.com/@openscriptprivacy">
                   <i className="fab fa-medium"></i>
                 </a>
-                <a href="https://www.reddit.com/user/Satiaana">
+                <a href="https://www.reddit.com/r/satriaana">
                   <i className="fab fa-reddit"></i>
                 </a>
                 <a href="https://github.com/Satriaana">
