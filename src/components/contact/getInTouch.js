@@ -21,9 +21,9 @@ export default function GetInTouch() {
           <h4 className="get-in-touch-bold">Email us</h4>
           <p className="get-in-touch-desc">contact@satraana.org</p>
 
-          <h4 className="get-in-touch-bold">Call us</h4>
+          {/* <h4 className="get-in-touch-bold">Call us</h4>
           <p className="get-in-touch-desc">+94 123 456 789</p>
-          <p className="get-in-touch-desc">+94 123 456 789</p>
+          <p className="get-in-touch-desc">+94 123 456 789</p> */}
         </div>
       </div>
     </div>
