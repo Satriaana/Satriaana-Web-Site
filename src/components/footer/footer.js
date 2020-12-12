@@ -37,12 +37,12 @@ class Footer extends Component {
                   <i className="fas fa-map-marker-alt"></i> Lorem ipsum dolor
                   sit amet
                 </p>
-                <p>
+                {/* <p>
                   <i className="fas fa-phone"></i> Phone: 011 123 45 67
-                </p>
+                </p> */}
                 <p>
                   <i className="fas fa-envelope"></i> Email:{' '}
-                  <a href="mailto:lorem@ipsum.com">test@satriaana.org</a>
+                  <a href="mailto:lorem@ipsum.com">contact@satriaana.org</a>
                 </p>
                 <p>
                   <i className="fab fa-firefox"></i> Mozilla Community:
