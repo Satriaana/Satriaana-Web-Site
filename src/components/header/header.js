@@ -19,7 +19,7 @@ class header extends Component {
           <div className="container-fluid">
             <a
               className="navbar-brand"
-              href="https://satriaana.github.io/Satriaana-Web-Site/"
+              href="https://satriaana.org/"
             >
               <img
                 alt
@@ -58,12 +58,12 @@ class header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
+                  <Link className="nav-link" to="/contact" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>
                     Contact
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about">
+                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>
                     About
                   </Link>
                 </li>
