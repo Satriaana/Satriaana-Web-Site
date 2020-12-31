@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './footer.css';
-import FooterLogo from '../../assets/sat-white.png';
-import FaAngleUp from './gotopbutton.js';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import "./footer.css";
+import FooterLogo from "../../assets/sat-white.png";
+import FaAngleUp from "./gotopbutton.js";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -10,8 +10,8 @@ class Footer extends Component {
       //uses MDBootstrap in some parts
       <footer
         style={{
-          background: 'linear-gradient(90deg, #df4722, #d90b74)',
-          fontFamily: 'Kumbh Sans',
+          background: "linear-gradient(90deg, #df4722, #d90b74)",
+          fontFamily: "Kumbh Sans",
         }}
       >
         <div className="footer-top">
@@ -22,17 +22,22 @@ class Footer extends Component {
               </div>
               <div
                 className="col-md-4 footer-about"
-                style={{ marginBottom: '30px' }}
+                style={{ marginBottom: "30px" }}
               >
-                <p style={{ color: 'rgb(255,255,255)'}}>
-                Satriaana is an independent and transparent open-source community and an organization that respects the privacy of people. We aim to filter open-source projects for authenticity, while helping other open-source volunteer startups to rise. Anyone can volunteer for us as we're a volunteer based community and an organization.
+                <p style={{ color: "rgb(255,255,255)" }}>
+                  Satriaana is an independent and transparent open-source
+                  community and an organization that respects the privacy of
+                  people. We aim to filter open-source projects for
+                  authenticity, while helping other open-source volunteer
+                  startups to rise. Anyone can volunteer for us as we're a
+                  volunteer based community and an organization.
                 </p>
               </div>
               <div
                 className="col-md-4 footer-contact"
-                style={{ marginBottom: '30px' }}
+                style={{ marginBottom: "30px" }}
               >
-                <h3 style={{ color: 'rgb(255,255,255)' }}>Contact</h3>
+                <h3 style={{ color: "rgb(255,255,255)" }}>Contact</h3>
                 <p>
                   <i className="fas fa-map-marker-alt"></i> Lorem ipsum dolor
                   sit amet
@@ -41,7 +46,7 @@ class Footer extends Component {
                   <i className="fas fa-phone"></i> Phone: 011 123 45 67
                 </p> */}
                 <p>
-                  <i className="fas fa-envelope"></i> Email:{' '}
+                  <i className="fas fa-envelope"></i> Email:{" "}
                   <a href="mailto:lorem@ipsum.com">contact@satriaana.org</a>
                 </p>
                 <p>
@@ -52,14 +57,17 @@ class Footer extends Component {
               <div className="col-md-2 footer-links">
                 <div className="row">
                   <div className="col">
-                    <h3 style={{ color: 'rgb(255,255,255)' }}>Site Map</h3>
+                    <h3 style={{ color: "rgb(255,255,255)" }}>Site Map</h3>
                   </div>
                 </div>
                 <div className="row footer-items">
                   <div className="col-md-12">
                     <p>
-                    <Link style={{ textDecoration: 'none' }} to="/Satriaana-Web-Site">
-                      <a href="/Satriaana-Web-Site">Home</a>
+                      <Link
+                        style={{ textDecoration: "none" }}
+                        to="/Satriaana-Web-Site"
+                      >
+                        <a href="/Satriaana-Web-Site">Home</a>
                       </Link>
                     </p>
                     <p>
@@ -69,13 +77,29 @@ class Footer extends Component {
                       <a href="https://forum.satriaana.org">Forum</a>
                     </p>
                     <p>
-                    <Link style={{ textDecoration: 'none' }} to="/about">
-                      <a href="/about" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>About</a>
+                      <Link style={{ textDecoration: "none" }} to="/about">
+                        <a
+                          href="/about"
+                          onClick={window.scrollTo({
+                            top: 0,
+                            behavior: "smooth",
+                          })}
+                        >
+                          About
+                        </a>
                       </Link>
                     </p>
                     <p>
-                    <Link style={{ textDecoration: 'none' }} to="/contact">
-                      <a href="/contact" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>Contact</a>
+                      <Link style={{ textDecoration: "none" }} to="/contact">
+                        <a
+                          href="/contact"
+                          onClick={window.scrollTo({
+                            top: 0,
+                            behavior: "smooth",
+                          })}
+                        >
+                          Contact
+                        </a>
                       </Link>
                     </p>
                   </div>
@@ -85,19 +109,19 @@ class Footer extends Component {
           </div>
         </div>
         <div className="container">
-          <hr style={{ marginBottom: '25px' }} />
+          <hr style={{ marginBottom: "25px" }} />
 
           <div className="row">
             <div className="col-md-6 footer-copyright">
               <p
                 id="copyright"
-                style={{ fontFamily: 'Kumbh Sans', color: 'rgb(255,255,255)' }}
+                style={{ fontFamily: "Kumbh Sans", color: "rgb(255,255,255)" }}
               >
-                &copy; 2020 <b>Satriaana</b>. All Rights Reserved.
+                &copy; 2021 <b>Satriaana</b>. All Rights Reserved.
               </p>
             </div>
             <div className="col-md-6 footer-bottom">
-              <div className="footer-social" style={{ float: 'right' }}>
+              <div className="footer-social" style={{ float: "right" }}>
                 <a href="https://www.facebook.com/satriaanaorg">
                   <i className="fab fa-facebook-f"></i>
                 </a>
@@ -124,7 +148,7 @@ class Footer extends Component {
           </div>
         </div>
         <div>
-        <FaAngleUp/>
+          <FaAngleUp />
         </div>
       </footer>
     );
