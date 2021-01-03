@@ -1,33 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.998eee6e.chunk.css",
-    "main.js": "/static/js/main.6d8a97c1.chunk.js",
-    "main.js.map": "/static/js/main.6d8a97c1.chunk.js.map",
+    "main.css": "/static/css/main.d1791831.chunk.css",
+    "main.js": "/static/js/main.851447cb.chunk.js",
+    "main.js.map": "/static/js/main.851447cb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.49189a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.49189a44.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.24b97027.chunk.js": "/static/js/2.24b97027.chunk.js",
-    "static/js/2.24b97027.chunk.js.map": "/static/js/2.24b97027.chunk.js.map",
+    "static/js/2.001b1308.chunk.js": "/static/js/2.001b1308.chunk.js",
+    "static/js/2.001b1308.chunk.js.map": "/static/js/2.001b1308.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4282ce109796276e02baa238a9c5eb8f.js": "/precache-manifest.4282ce109796276e02baa238a9c5eb8f.js",
+    "precache-manifest.bc5c31eb864d8f63f04d667323a51c3f.js": "/precache-manifest.bc5c31eb864d8f63f04d667323a51c3f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.998eee6e.chunk.css.map": "/static/css/main.998eee6e.chunk.css.map",
-    "static/js/2.24b97027.chunk.js.LICENSE.txt": "/static/js/2.24b97027.chunk.js.LICENSE.txt",
-    "static/media/aboutcover.png": "/static/media/aboutcover.522b73ac.png",
-    "static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.png": "/static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.63a8a8b7.png",
-    "static/media/contactcover.png": "/static/media/contactcover.e637d859.png",
-    "static/media/cover.png": "/static/media/cover.9fef72d4.png",
-    "static/media/john-schnobrich-FlPc9_VocJ4-unsplash.png": "/static/media/john-schnobrich-FlPc9_VocJ4-unsplash.3c1d39a3.png",
-    "static/media/nordwood-themes-bJjsKbToY34-unsplash.png": "/static/media/nordwood-themes-bJjsKbToY34-unsplash.a7724b22.png",
+    "static/css/main.d1791831.chunk.css.map": "/static/css/main.d1791831.chunk.css.map",
+    "static/js/2.001b1308.chunk.js.LICENSE.txt": "/static/js/2.001b1308.chunk.js.LICENSE.txt",
+    "static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.png": "/static/media/arif-riyanto-vJP-wZ6hGBg-unsplash.6e112d6d.png",
+    "static/media/blog.jpg": "/static/media/blog.0b8a1830.jpg",
+    "static/media/cover.png": "/static/media/cover.77066e50.png",
+    "static/media/design.jpg": "/static/media/design.45838c51.jpg",
+    "static/media/dev.jpg": "/static/media/dev.0810a5bc.jpg",
+    "static/media/john-schnobrich-FlPc9_VocJ4-unsplash.png": "/static/media/john-schnobrich-FlPc9_VocJ4-unsplash.306d9e88.png",
+    "static/media/nordwood-themes-bJjsKbToY34-unsplash.png": "/static/media/nordwood-themes-bJjsKbToY34-unsplash.571ae29c.png",
     "static/media/sat-white.png": "/static/media/sat-white.0256a66f.png",
-    "static/media/satriaana-logo.png": "/static/media/satriaana-logo.2f76e9d6.png"
+    "static/media/satriaana-logo.png": "/static/media/satriaana-logo.2f76e9d6.png",
+    "static/media/satriaanacore.png": "/static/media/satriaanacore.4253bcdc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49189a44.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.24b97027.chunk.js",
-    "static/css/main.998eee6e.chunk.css",
-    "static/js/main.6d8a97c1.chunk.js"
+    "static/js/2.001b1308.chunk.js",
+    "static/css/main.d1791831.chunk.css",
+    "static/js/main.851447cb.chunk.js"
   ]
 }
