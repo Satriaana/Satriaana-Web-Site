@@ -117,7 +117,7 @@ class Footer extends Component {
                 id="copyright"
                 style={{ fontFamily: "Kumbh Sans", color: "rgb(255,255,255)" }}
               >
-                &copy; 2021 <b>Satriaana</b>. All Rights Reserved.
+                &copy; {new Date().getFullYear()}{" "} <b>Satriaana</b>. All Rights Reserved.
               </p>
             </div>
             <div className="col-md-6 footer-bottom">
