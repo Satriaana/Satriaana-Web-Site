@@ -11,12 +11,11 @@ class Footer extends Component {
       <footer
         style={{
           background: "linear-gradient(90deg, #df4722, #d90b74)",
-          fontFamily: "Kumbh Sans",
         }}
       >
         <div className="footer-top">
-          <div className="container">
-            <div className="row">
+          <div className="container-fluid p-5">
+            <div className="row px-lg-5">
               <div className="col-md-2 footer-about">
                 <img alt="footer" src={FooterLogo} />
               </div>
@@ -33,10 +32,7 @@ class Footer extends Component {
                   volunteer based community and an organization.
                 </p>
               </div>
-              <div
-                className="col-md-4 footer-contact"
-                style={{ marginBottom: "30px" }}
-              >
+              <div className="col-md-4 footer-contact text-white">
                 <h3 style={{ color: "rgb(255,255,255)" }}>Contact</h3>
                 <p>
                   <i className="fas fa-map-marker-alt"></i> Lorem ipsum dolor
@@ -107,17 +103,14 @@ class Footer extends Component {
               </div>
             </div>
           </div>
+          <hr />
         </div>
-        <div className="container">
-          <hr style={{ marginBottom: "25px" }} />
-
-          <div className="row">
+        <div className="container-fluid px-5">
+          <div className="row px-lg-5">
             <div className="col-md-6 footer-copyright">
-              <p
-                id="copyright"
-                style={{ fontFamily: "Kumbh Sans", color: "rgb(255,255,255)" }}
-              >
-                &copy; {new Date().getFullYear()}{" "} <b>Satriaana</b>. All Rights Reserved.
+              <p id="copyright" style={{ color: "rgb(255,255,255)" }}>
+                &copy; {new Date().getFullYear()} Satriaana. All Rights
+                Reserved.
               </p>
             </div>
             <div className="col-md-6 footer-bottom">

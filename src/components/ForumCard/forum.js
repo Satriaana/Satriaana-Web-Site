@@ -1,164 +1,92 @@
-import React, { Component } from 'react';
-import './forum.css';
-import forumImage from '../../assets/nordwood-themes-bJjsKbToY34-unsplash.png';
+import React, { Component } from "react";
+// import './forum.css';
 
 class Forum extends Component {
   render() {
     return (
-      <div style={{ fontFamily: 'Kumbh Sans' }}>
-        <div className="container" style={{ paddingTop: '50px' }}>
-          <div className="row">
-            <div className="col-md-12" style={{ marginBottom: '10px' }}>
+      <div>
+        <div className="container-fluid p-5">
+          <div class="row px-lg-5 py-5 text-left">
+            <div class="col-lg-9 px-5">
               <h1
                 id="title"
                 style={{
-                  fontSize: '40px',
-                  fontFamily: 'Kumbh Sans',
-                  fontWeight: 'bold',
-                  marginBottom: '30px'
+                  fontSize: "40px",
+                  fontWeight: "bold",
                 }}
               >
                 Collaborate, Communicate, Create.
-                <button className="btn btn-primary float-right" type="button" id="btn" >
-                  Lorem Ipsum
-                </button>
               </h1>
               <p
-                id="desc"
+                class="py-4"
                 style={{
-                  fontSize: '21px',
-                  fontFamily: 'Kumbh Sans',
-                  color: '#21262b',
+                  fontSize: "21px",
                 }}
               >
-                A place to get together as a community and &nbsp;
-                <br />
-                collaborate to build a better future for open-source
-                <br />
+                A place to get together as a community and collaborate to build
+                a better future for open-source
               </p>
             </div>
+            <div class="col-lg-3 px-5 px-lg-5 d-flex justify-content-lg-end">
+              <a
+                href="https://forum.satriaana.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button
+                  className="btn btn-primary"
+                  id="btn"
+                  type="button"
+                  style={{ fontWeight: "bold" }}
+                >
+                  Visit Our Forum
+                </button>
+              </a>
+            </div>
           </div>
-          <div className="row" style={{ paddingBottom: '50px' }}>
-            <div className="col-md-4">
-              <div
-                className="card"
-                style={{ borderRadius: '10px', marginBottom: '30px' }}
-              >
-                <img
-                  className="card-img w-100 d-block"
-                  src={forumImage}
-                  style={{
-                    objectFit: 'cover',
-                    height: '320px',
-                    borderRadius: '10px',
-                  }}
-                />
-                <div
-                  className="card-img-overlay"
-                  style={{
-                    background:
-                      'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat',
-                    borderRadius: '10px',
-                  }}
-                >
-                  <h4
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    Recent Thread #1
-                  </h4>
-                  <p
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    <a href="#">Visit &gt;</a>
+          <div class="row px-lg-5 text-left">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">Featured</div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
                   </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
                 </div>
               </div>
             </div>
-
-            <div className="col-md-4">
-              <div
-                className="card"
-                style={{ borderRadius: '10px', marginBottom: '30px' }}
-              >
-                <img
-                  className="card-img w-100 d-block"
-                  src={forumImage}
-                  style={{
-                    objectFit: 'cover',
-                    height: '320px',
-                    borderRadius: '10px',
-                  }}
-                />
-                <div
-                  className="card-img-overlay"
-                  style={{
-                    background:
-                      'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat',
-                    borderRadius: '10px',
-                  }}
-                >
-                  <h4
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    Recent Thread #2
-                  </h4>
-                  <p
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    <a href="#">Visit &gt;</a>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">Featured</div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
                   </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
                 </div>
               </div>
             </div>
-
-            <div className="col-md-4">
-              <div
-                className="card"
-                style={{ borderRadius: '10px', marginBottom: '30px' }}
-              >
-                <img
-                  className="card-img w-100 d-block"
-                  src={forumImage}
-                  style={{
-                    objectFit: 'cover',
-                    height: '320px',
-                    background:
-                      'url(./nordwood-themes-bJjsKbToY34-unsplash.png) center / cover no-repeat',
-                    borderRadius: '10px',
-                  }}
-                />
-                <div
-                  className="card-img-overlay"
-                  style={{ borderRadius: '10px' }}
-                >
-                  <h4
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    Recent Thread #3
-                  </h4>
-                  <p
-                    style={{
-                      color: 'rgb(255,255,255)',
-                      textShadow: '0px 0px 1px',
-                    }}
-                  >
-                    <a href="#">Visit &gt;</a>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">Featured</div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
                   </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
                 </div>
               </div>
             </div>

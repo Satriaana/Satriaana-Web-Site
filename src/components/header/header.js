@@ -8,21 +8,17 @@ class header extends Component {
     return (
       <header>
         <nav
-          className="navbar navbar-light navbar-expand-md fixed-top"
+          className="navbar navbar-light navbar-expand-md fixed-top px-5"
           style={{
-            fontFamily: "Kumbh Sans",
             fontWeight: "bold",
             fontSize: "18px",
-            backgroundColor: "#FFF",
+            backgroundColor: "#FFF"
           }}
         >
           <div className="container-fluid">
-            <a
-              className="navbar-brand"
-              href="https://satriaana.org/"
-            >
+            <a className="navbar-brand" href="https://satriaana.org/">
               <img
-                alt
+                alt="Brand"
                 src={HeaderLogo}
                 style={{
                   width: "130px",
@@ -57,14 +53,24 @@ class header extends Component {
                     Forum
                   </a>
                 </li>
+
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>
-                    Contact
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/about"
+                    onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
+                  >
+                    About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" style={{ textDecoration: "none" }} to="/about" onClick={window.scrollTo({top: 0, behavior: 'smooth'})}>
-                    About
+                  <Link
+                    className="nav-link"
+                    to="/contact"
+                    onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
+                  >
+                    Contact
                   </Link>
                 </li>
               </ul>

@@ -4,19 +4,19 @@ import './contact.css';
 
 export default function GetInTouch() {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container-fluid p-5">
+      <div className="row px-lg-5 text-left">
         <div className="col-md-12" style={{ textAlign: 'start' }}>
           <h1 className="get-in-touch-bold">Get in touch</h1>
           <p className="get-in-touch-desc">
           Dive into our community portal where you can find answers for common questions. If you don’t find what you are looking for, create a new thread and look for the answers with the community.
           </p>
-          <button className="btn btn-primary" id="btn" style={{ marginBottom: '30px' }}>
+          <button className="btn btn-primary my-3" id="btn" style={{ marginBottom: '30px' }}>
             Ask help in Community Forum
           </button>
         </div>
       </div>
-      <div className="row">
+      <div className="row px-lg-5 text-left">
         <div className="col-md-12" style={{ textAlign: 'start' }}>
           <h4 className="get-in-touch-bold">Email us</h4>
           <p className="get-in-touch-desc">contact@satraana.org</p>

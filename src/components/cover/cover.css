@@ -1,10 +1,9 @@
-.cover {
+/* .cover {
   background: #F2F2F2;
-}
+} */
 
 #btn {
   border: none;
-  padding-top: 10px;
 }
 
 #btn:focus, #btn:active {
