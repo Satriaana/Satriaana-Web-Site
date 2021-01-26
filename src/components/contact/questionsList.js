@@ -24,9 +24,9 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title" style={{ fontWeight: 'normal' }}>
+          <h3 className="question-title" style={{ fontWeight: 'normal' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-          </h2>
+          </h3>
         </AccordionSummary>
 
         <AccordionDetails>
@@ -47,9 +47,9 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title" style={{ fontWeight: 'normal' }}>
+          <h3 className="question-title" style={{ fontWeight: 'normal' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-          </h2>
+          </h3>
         </AccordionSummary>
 
         <AccordionDetails>
@@ -70,9 +70,9 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title" style={{ fontWeight: 'normal' }}>
+          <h3 className="question-title" style={{ fontWeight: 'normal' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-          </h2>
+          </h3>
         </AccordionSummary>
 
         <AccordionDetails>
@@ -93,9 +93,9 @@ export default function QuestionsList() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2 className="question-title" style={{ fontWeight: 'normal' }}>
+          <h3 className="question-title" style={{ fontWeight: 'normal' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-          </h2>
+          </h3>
         </AccordionSummary>
 
         <AccordionDetails>

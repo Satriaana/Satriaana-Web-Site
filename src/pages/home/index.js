@@ -1,7 +1,5 @@
 import React from "react";
 
-import CarouselImage from "../../assets/cover.png";
-
 import { DefaultLayout } from "../../layouts/DefaultLayout";
 import Cover from "../../components/cover/cover";
 import { Carousel } from "../../components/Carousel";
@@ -14,10 +12,10 @@ export const Home = () => {
   return (
     <DefaultLayout>
       <Cover />
-      <Carousel image={CarouselImage} />
+      <Carousel />
       <Titleintroduction />
       <Blog />
-      <Forum />
+      {/* <Forum /> */}
       <Twitter />
     </DefaultLayout>
   );

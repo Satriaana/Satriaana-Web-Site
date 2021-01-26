@@ -1,22 +1,15 @@
-#title {
-    text-align: left!important;
+.card {
+  margin-bottom: 2em;
 }
 
-#desc {
-    text-align: left!important;
+.card img {
+  height: 400px;
+  object-fit: cover;
 }
 
-#btn {
-    border: none;
-    padding-top: 10px;
-}
-
-#btn:focus, #btn:active {
-    outline: none;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.20);
-}
-
-#smallCard{
-    
-   
+@media (max-width: 576px) {
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
 }
