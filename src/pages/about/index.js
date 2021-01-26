@@ -5,10 +5,6 @@ import { DefaultLayout } from "../../layouts/DefaultLayout";
 import { Section } from "../../components/Section";
 
 import styles from "./about.module.css";
-import blogImg from "../../assets/blog.jpg";
-import devImg from "../../assets/dev.jpg";
-import designImg from "../../assets/design.jpg";
-import teamImg from "../../assets/satriaanacore.png";
 
 export const About = () => {
   return (
@@ -31,7 +27,8 @@ export const About = () => {
               >
                 <img
                   className="card-img w-100 d-block"
-                  src={blogImg}
+                  src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/blog.jpg?alt=media&token=9122ed99-ed4b-4216-a18f-eb1d965d3975"
+                  alt=""
                   style={{
                     objectFit: 'cover',
                     height: '320px',
@@ -68,7 +65,8 @@ export const About = () => {
               >
                 <img
                   className="card-img w-100 d-block"
-                  src={devImg}
+                  src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/dev.jpg?alt=media&token=ae43f3b7-f941-4bc4-86cf-24c03118862d"
+                  alt=""
                   style={{
                     objectFit: 'cover',
                     height: '320px',
@@ -103,7 +101,8 @@ export const About = () => {
               >
                 <img
                   className="card-img w-100 d-block"
-                  src={designImg}
+                  src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/design.jpg?alt=media&token=c3f59c04-f735-4f7b-b35c-cff3688de6ac"
+                  alt=""
                   style={{
                     objectFit: 'cover',
                     height: '320px',
@@ -159,7 +158,7 @@ export const About = () => {
             </div>
           </div>
           <div className="col-md-7">
-            <img src={teamImg} alt="Core team of Satriaana" style={{width: '100%'}} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/satriaana-resources.appspot.com/o/satCoreMembers.png?alt=media&token=a65f57e9-256b-42f9-8a91-460c3edd3e79" alt="Core team of Satriaana" style={{width: '100%'}} />
           </div>
         </div>
       </Section>
