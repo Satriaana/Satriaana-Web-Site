@@ -6,24 +6,24 @@ class Cover extends Component {
     return (
       <div className="cover px-5">
         <div className="container p-4">
-          <div class="row">
-            <div class="col-lg-8 text-lg-left">
+          <div class="row d-flex flex-row w-100 justify-content-center">
+            <div class="col-lg-6 text-lg-left">
               <h4
                 style={{
                   fontWeight: "bold",
                 }}
               >
-                We are calling for volunteers to help with community projects
+                Join our Telegram channel to stay connected
               </h4>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-1">
               <a
-                href="https://satriaana.typeform.com/to/XYGqfnkI"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://t.me/satriaana"
+                // target="_blank"
+                // rel="noopener noreferrer"
               >
                 <button className="btn btn-primary" type="button" style={{fontWeight: "bold"}}>
-                  Join Satriaana
+                  Subscribe
                 </button>
               </a>
             </div>
