@@ -1,3 +1,5 @@
+![Build Version](https://img.shields.io/badge/V-1.0.0-brightgreen)
+![Build](https://img.shields.io/badge/Status-Stable-brightgreen)
 # What is Satriaana?
 **Satriaana** is an __independent__, __transparent__ and __open-source community__/__organization__ that helps other open-source startups to rise.
 
