@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import "./blog.css";
-import article1ImgSrc from "../../assets/john-schnobrich-FlPc9_VocJ4-unsplash.png";
-import article2ImgSrc from "../../assets/nordwood-themes-bJjsKbToY34-unsplash.png";
-import article4ImgSrc from "../../assets/arif-riyanto-vJP-wZ6hGBg-unsplash.png";
-import { StoreMallDirectory } from "@material-ui/icons";
 
 class Blog extends Component {
   state = {
@@ -31,7 +27,7 @@ class Blog extends Component {
     // }
 
     // console.log({ post: data, loading: false });
-    console.log(this.state.post.posts[0]);
+    // console.log(this.state.post.posts[0]);
   }
 
   render() {
@@ -83,7 +79,7 @@ class Blog extends Component {
           <div className="row px-lg-5 text-left">
             <div class="col-sm-6 col-lg-6">
               <div class="card" style={{ fontWeight: "bold" }}>
-                {this.state.post ? (
+                {this.state.post && this.state.post.posts ? (
                   <img
                     src={this.state.post.posts[0].feature_image}
                     class="card-img-top"
@@ -94,14 +90,14 @@ class Blog extends Component {
                   <img src="" class="card-img-top" alt="..." />
                 )}
                 <div class="card-body">
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     this.state.post.posts[0].title
                   ) : (
                     <h5 class="card-title">Card title</h5>
                   )}
                   <p class="card-text py-2"></p>
 
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     <a
                       href={this.state.post.posts[0].url}
                       class="btn btn-primary"
@@ -120,7 +116,7 @@ class Blog extends Component {
             </div>
             <div class="col-sm-6 col-lg-6">
               <div class="card" style={{ fontWeight: "bold" }}>
-                {this.state.post ? (
+                {this.state.post && this.state.post.posts ? (
                   <img
                     src={this.state.post.posts[1].feature_image}
                     class="card-img-top"
@@ -130,14 +126,14 @@ class Blog extends Component {
                   <img src="" class="card-img-top" alt="..." />
                 )}
                 <div class="card-body">
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     this.state.post.posts[1].title
                   ) : (
                     <h5 class="card-title">Card title</h5>
                   )}
                   <p class="card-text py-2"></p>
 
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     <a
                       href={this.state.post.posts[1].url}
                       class="btn btn-primary"
@@ -158,7 +154,7 @@ class Blog extends Component {
           <div class="row px-lg-5 text-left">
             <div class="col-sm-6 col-lg-4">
               <div class="card" style={{ fontWeight: "bold" }}>
-                {this.state.post ? (
+                {this.state.post && this.state.post.posts ? (
                   <img
                     src={this.state.post.posts[2].feature_image}
                     class="card-img-top"
@@ -168,14 +164,14 @@ class Blog extends Component {
                   <img src="" class="card-img-top" alt="..." />
                 )}
                 <div class="card-body">
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     this.state.post.posts[2].title
                   ) : (
                     <h5 class="card-title">Card title</h5>
                   )}
                   <p class="card-text py-2"></p>
 
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     <a
                       href={this.state.post.posts[2].url}
                       class="btn btn-primary"
@@ -194,9 +190,13 @@ class Blog extends Component {
             </div>
             <div class="col-sm-6 col-lg-4">
               <div class="card" style={{ fontWeight: "bold" }}>
-                {this.state.post ? (
+                {this.state.post && this.state.post.posts ? (
                   <img
-                    src={this.state.post.posts[3].feature_image}
+                    src={
+                      this.state.post.posts[3].feature_image
+                        ? this.state.post.posts[3].feature_image
+                        : ""
+                    }
                     class="card-img-top"
                     alt="..."
                   />
@@ -204,7 +204,7 @@ class Blog extends Component {
                   <img src="" class="card-img-top" alt="..." />
                 )}
                 <div class="card-body">
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     this.state.post.posts[3].title
                   ) : (
                     <h5 class="card-title">Card title</h5>
@@ -213,7 +213,11 @@ class Blog extends Component {
 
                   {this.state.post ? (
                     <a
-                      href={this.state.post.posts[3].url}
+                      href={
+                        (this.state.post.posts !== undefined) | null
+                          ? this.state.post.posts[3].url
+                          : ""
+                      }
                       class="btn btn-primary"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -230,7 +234,7 @@ class Blog extends Component {
             </div>
             <div class="col-sm-6 col-lg-4">
               <div class="card" style={{ fontWeight: "bold" }}>
-                {this.state.post ? (
+                {this.state.post && this.state.post.posts ? (
                   <img
                     src={this.state.post.posts[4].feature_image}
                     class="card-img-top"
@@ -240,7 +244,7 @@ class Blog extends Component {
                   <img src="" class="card-img-top" alt="..." />
                 )}
                 <div class="card-body">
-                  {this.state.post ? (
+                  {this.state.post && this.state.post.posts ? (
                     this.state.post.posts[4].title
                   ) : (
                     <h5 class="card-title">Card title</h5>
@@ -249,7 +253,11 @@ class Blog extends Component {
 
                   {this.state.post ? (
                     <a
-                      href={this.state.post.posts[4].url}
+                      href={
+                        (this.state.post.posts !== undefined) | null
+                          ? this.state.post.posts[4].url
+                          : ""
+                      }
                       class="btn btn-primary"
                       target="_blank"
                       rel="noopener noreferrer"
